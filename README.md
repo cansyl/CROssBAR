@@ -50,8 +50,32 @@ DEEPScreen can be exploited in the fields of drug discovery and repurposing for 
 MDeePred is a deep-learning method that produces compound-target binding affinity predictions to be used for the purposes of computational drug discovery and repositioning. The method adopts the chemogenomic approach, where both the compound and target protein features are employed at the input level to model their interaction, which enables the prediction of inhibitors to under-studied or completely non-targeted proteins. In MDeePred, multiple types of protein features such as sequence, structural, evolutionary and physicochemical properties are incorporated within multi-channel 2-D vectors, which is then fed to state-of-the-art pairwise input hybrid deep neural networks to predict the real-valued compound-target protein interactions. The source code and datasets of MDeePred are available at [MDeePred GitHub repository](https://github.com/cansyl/MDeePred).
 
 
+## CROssBAR Knowledge Graphs
 
+<img src="https://user-images.githubusercontent.com/13165170/88082149-0e0ed580-cb8a-11ea-9c12-be18cf562c9d.jpg" width="600"> 
 
+In CROssBAR knowledge graphs, different biological components, such as;
+
+* drugs/compounds,
+* genes/proteins,
+* pathways,
+* phenotypes and
+* diseases
+
+are represented as nodes, and the known and predicted pairwise relationships are annotated and displayed as labeled edges. The knowledge graphs are constructed on the fly, each time the CROssBAR database is queried by the user. To convert the full output of user queries, which are initially extremely large biological networks, into biologically meaningful and interpretable representations without losing primary relationships, we applied intensive node enrichment operations. The knowledge graphs are displayed to the user as heterogeneous biological networks and their purpose is to aid biomedical research, especially in the fields of drug discovery and repositioning, by providing a concise piece of relevant biological information to the user in real time.
+
+## CROssBAR Web-Service
+
+<img src="https://user-images.githubusercontent.com/13165170/88083919-49120880-cb8c-11ea-8e20-d9d3850af77c.png" width="600"> 
+
+In order to make the CROssBAR knowledge graphs (KG) available to the public in an easily interpretable way, we developed a web service and an easy to use web interface. Here, KGs are presented on a web browser as Cytoscape networks. The web service is available at: [crossbar.kansil.org](https://crossbar.kansil.org). The users can make a search for the following components individually or in combination:
+
+* diseases/phenotypes,
+* drug/drug candidate compounds,
+* biological processes/pathways and
+* proteins
+
+As a result of a search requested by the user, the input containing the search term(s) in the CROssBAR database is extracted via the API and the components that have a biological relationship with this input (e.g. a signalling pathway, of which the searched protein is a member, or a disease known to occur as a result of a mutation in the protein sought, or target proteins known to interact with the searched drug molecule) are extracted from the database. For the layout of the components, CROssBAR layout is developed, in which biological components of a specific type are placed on circular points within fixed radii.
 
 
 ## License
