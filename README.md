@@ -16,7 +16,7 @@ The purpose of the CROssBAR project is to address the limitations related to dat
 
 **4) CROssBAR web-service:** Here we developed a service to make the CROssBAR data available to the public in an easily interpretable, interactive way via an online graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly.
 
-**5) COVID-19 and other use-cases:** CROssBAR COVID-19 knowledge graphs are constructed with aim of collecting the related data from various biomedical resources, applying filtering operations and presenting it in a coherent and standardized form to the research community. Along with up-to-date information reported in source databases, our COVID-19 KGs also incorporates several new drugs (either by enrichment analysis or predicted by our deep-learning models) that can contribute to the studies on developing novel medications against SARS-CoV-2. We also conducted *in vitro* cell based wet-lab experiments (i.e., gene expression analysis) to compare its results with the computationally-inferred information.
+**5) COVID-19 and other use-cases:** CROssBAR COVID-19 knowledge graphs are constructed with aim of collecting the related data from various biomedical resources, applying filtering operations and presenting it in a coherent and standardized form to the research community. Along with up-to-date information reported in source databases, our COVID-19 KGs also incorporates several new drugs (either by enrichment analysis or predicted by our deep-learning models) that can contribute to the studies on developing novel medications against SARS-CoV-2. We also conducted *in vitro* cell based wet-lab experiments (i.e., gene expression analysis) to compare its results with the computationally-inferred information.  
 
 ## CROssBAR Database & API
 
@@ -30,11 +30,11 @@ Technologies used:
 * Java 8,
 * Mongo DB v3.4.9,
 * Groovy and Spock framework for tests,
-* Maven dependency management
+* Maven dependency management  
 
 ## Deep Learning-based Relation Prediction
 
-**DEEPScreen:**
+__**DEEPScreen:**__
 
 <img src="https://user-images.githubusercontent.com/13165170/88064485-05aba000-cb74-11ea-8ff5-ca3cf1fd5d67.png" width="600"> 
 
@@ -43,11 +43,11 @@ DEEPScreen is a high performance drug–target interaction predictor that utiliz
 DEEPScreen can be exploited in the fields of drug discovery and repurposing for in silico screening of the chemogenomic space, to provide novel DTIs which can be experimentally pursued. The source code, trained "ready-to-use" prediction models, all datasets and the results of this study are available at [DEEPScreen GitHub repository](https://github.com/cansyl/DEEPscreen). More information is available at [DEEPScreen journal paper](https://doi.org/10.1039/C9SC03414E).
 
 
-**MDeePred:**
+__**MDeePred:**__
 
 <img src="https://user-images.githubusercontent.com/13165170/88065912-da29b500-cb75-11ea-977d-d38ab648077d.png" width="600"> 
 
-MDeePred is a deep-learning method that produces compound-target binding affinity predictions to be used for the purposes of computational drug discovery and repositioning. The method adopts the chemogenomic approach, where both the compound and target protein features are employed at the input level to model their interaction, which enables the prediction of inhibitors to under-studied or completely non-targeted proteins. In MDeePred, multiple types of protein features such as sequence, structural, evolutionary and physicochemical properties are incorporated within multi-channel 2-D vectors, which is then fed to state-of-the-art pairwise input hybrid deep neural networks to predict the real-valued compound-target protein interactions. The source code and datasets of MDeePred are available at [MDeePred GitHub repository](https://github.com/cansyl/MDeePred).
+MDeePred is a deep-learning method that produces compound-target binding affinity predictions to be used for the purposes of computational drug discovery and repositioning. The method adopts the chemogenomic approach, where both the compound and target protein features are employed at the input level to model their interaction, which enables the prediction of inhibitors to under-studied or completely non-targeted proteins. In MDeePred, multiple types of protein features such as sequence, structural, evolutionary and physicochemical properties are incorporated within multi-channel 2-D vectors, which is then fed to state-of-the-art pairwise input hybrid deep neural networks to predict the real-valued compound-target protein interactions. The source code and datasets of MDeePred are available at [MDeePred GitHub repository](https://github.com/cansyl/MDeePred).  
 
 
 ## CROssBAR Knowledge Graphs
@@ -62,7 +62,7 @@ In CROssBAR knowledge graphs, different biological components, such as;
 * phenotypes and
 * diseases
 
-are represented as nodes, and the known and predicted pairwise relationships are annotated and displayed as labeled edges. The knowledge graphs are constructed on the fly, each time the CROssBAR database is queried by the user. To convert the full output of user queries, which are initially extremely large biological networks, into biologically meaningful and interpretable representations without losing primary relationships, we applied intensive node enrichment operations. The knowledge graphs are displayed to the user as heterogeneous biological networks and their purpose is to aid biomedical research, especially in the fields of drug discovery and repositioning, by providing a concise piece of relevant biological information to the user in real time.
+are represented as nodes, and the known and predicted pairwise relationships are annotated and displayed as labeled edges. The knowledge graphs are constructed on the fly, each time the CROssBAR database is queried by the user. To convert the full output of user queries, which are initially extremely large biological networks, into biologically meaningful and interpretable representations without losing primary relationships, we applied intensive node enrichment operations. The knowledge graphs are displayed to the user as heterogeneous biological networks and their purpose is to aid biomedical research, especially in the fields of drug discovery and repositioning, by providing a concise piece of relevant biological information to the user in real time.  
 
 ## CROssBAR Web-Service
 
@@ -75,7 +75,7 @@ In order to make the CROssBAR knowledge graphs (KG) available to the public in a
 * biological processes/pathways and
 * proteins
 
-As a result of a search requested by the user, the input containing the search term(s) in the CROssBAR database is extracted via the API and the components that have a biological relationship with this input (e.g. a signalling pathway, of which the searched protein is a member, or a disease known to occur as a result of a mutation in the protein sought, or target proteins known to interact with the searched drug molecule) are extracted from the database. For the layout of the components, CROssBAR layout is developed, in which biological components of a specific type are placed on circular points within fixed radii.
+As a result of a search requested by the user, the input containing the search term(s) in the CROssBAR database is extracted via the API and the components that have a biological relationship with this input (e.g. a signalling pathway, of which the searched protein is a member, or a disease known to occur as a result of a mutation in the protein sought, or target proteins known to interact with the searched drug molecule) are extracted from the database. For the layout of the components, CROssBAR layout is developed, in which biological components of a specific type are placed on circular points within fixed radii.  
 
 
 ## License
