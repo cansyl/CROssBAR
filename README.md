@@ -20,11 +20,10 @@ The purpose of the CROssBAR project is to address the limitations related to dat
 
 ## CROssBAR Database & API
 
-![CROssBAR-DB_API](https://user-images.githubusercontent.com/13165170/88058594-59b28680-cb6c-11ea-9bf6-8d0ba3c66cf8.png | width=100) tst tst
+<img src="https://user-images.githubusercontent.com/13165170/88060719-42c16380-cb6f-11ea-84c4-e7f7163e152d.png" width="600"> 
 
-First Header | Second Header
+![CROssBAR-DB_API](https://user-images.githubusercontent.com/13165170/88058594-59b28680-cb6c-11ea-9bf6-8d0ba3c66cf8.png) | tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst st tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst
 ------------ | -------------
-![CROssBAR-DB_API](https://user-images.githubusercontent.com/13165170/88058594-59b28680-cb6c-11ea-9bf6-8d0ba3c66cf8.png) | tst tst
 
 
 
