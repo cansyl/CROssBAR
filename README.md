@@ -40,10 +40,14 @@ Technologies used:
 
 DEEPScreen is a high performance drug–target interaction predictor that utilizes convolutional neural networks and 2-D structural compound representations to predict their activity against intended target proteins. DEEPScreen system is composed of 704 target protein specific prediction models, each independently trained using experimental bioactivity measurements against many drug candidate small molecules, and optimized according to the binding properties of the target proteins.
 
-DEEPScreen can be exploited in the fields of drug discovery and repurposing for in silico screening of the chemogenomic space, to provide novel DTIs which can be experimentally pursued. The source code, trained "ready-to-use" prediction models, all datasets and the results of this study are available at [DEEPScreen repository](https://github.com/cansyl/DEEPscreen). More information is available at [DEEPScreen journal paper](https://doi.org/10.1039/C9SC03414E).
+DEEPScreen can be exploited in the fields of drug discovery and repurposing for in silico screening of the chemogenomic space, to provide novel DTIs which can be experimentally pursued. The source code, trained "ready-to-use" prediction models, all datasets and the results of this study are available at [DEEPScreen GitHub repository](https://github.com/cansyl/DEEPscreen). More information is available at [DEEPScreen journal paper](https://doi.org/10.1039/C9SC03414E).
 
 
+**MDeePred:**
 
+<img src="https://user-images.githubusercontent.com/13165170/88065912-da29b500-cb75-11ea-977d-d38ab648077d.png" width="600"> 
+
+MDeePred is a deep-learning method that produces compound-target binding affinity predictions to be used for the purposes of computational drug discovery and repositioning. The method adopts the chemogenomic approach, where both the compound and target protein features are employed at the input level to model their interaction, which enables the prediction of inhibitors to under-studied or completely non-targeted proteins. In MDeePred, multiple types of protein features such as sequence, structural, evolutionary and physicochemical properties are incorporated within multi-channel 2-D vectors, which is then fed to state-of-the-art pairwise input hybrid deep neural networks to predict the real-valued compound-target protein interactions. The source code and datasets of MDeePred are available at [MDeePred GitHub repository](https://github.com/cansyl/MDeePred).
 
 
 
