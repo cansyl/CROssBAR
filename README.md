@@ -43,7 +43,7 @@ DEEPScreen is a high performance drug–target interaction predictor that utiliz
 DEEPScreen can be exploited in the fields of drug discovery and repurposing for in silico screening of the chemogenomic space, to provide novel DTIs which can be experimentally pursued. The source code, trained "ready-to-use" prediction models, all datasets and the results of this study are available at [DEEPScreen GitHub repository](https://github.com/cansyl/DEEPscreen). More information is available at [DEEPScreen journal paper](https://doi.org/10.1039/C9SC03414E).
 
 
-<ins>MDeePred:</ins>
+<ins>**MDeePred:**</ins>
 
 <img src="https://user-images.githubusercontent.com/13165170/88065912-da29b500-cb75-11ea-977d-d38ab648077d.png" width="600"> 
 
@@ -77,6 +77,20 @@ In order to make the CROssBAR knowledge graphs (KG) available to the public in a
 
 As a result of a search requested by the user, the input containing the search term(s) in the CROssBAR database is extracted via the API and the components that have a biological relationship with this input (e.g. a signalling pathway, of which the searched protein is a member, or a disease known to occur as a result of a mutation in the protein sought, or target proteins known to interact with the searched drug molecule) are extracted from the database. For the layout of the components, CROssBAR layout is developed, in which biological components of a specific type are placed on circular points within fixed radii.  
 
+
+## COVID-19 Knowledge Graphs
+
+CROssBAR COVID-19 knowledge graphs (KGs) are constructed with aim of collecting the related data from various biomedical resources, applying filtering operations and presenting it in a coherent and standardized form to the research community. We are periodically updating our COVID-19 KGs with the new evidence that is being accumulated in our resources. On top of the data reported in source databases, our COVID-19 KGs also incorporates several new drugs (either by enrichment analysis or predicted by our deep-learning models) that can contribute to the studies on developing novel medications against SARS-CoV-2 (literature-based Investigation for predictions: Supplementary Information section 2). We also conducted simple _in vitro_ cell based wet-lab experiments (i.e., gene expression analysis) to compare its results with the computationally-inferred information.
+
+**Large-scale COVID-19 Knowledge Graph:**
+
+<img src="https://user-images.githubusercontent.com/13165170/88108825-28f54000-cbb2-11ea-8d19-462b898adaff.png" width="800">
+
+**Simplified COVID-19 Knowledge Graph:**
+
+<img src="https://user-images.githubusercontent.com/13165170/88108638-d61b8880-cbb1-11ea-8fc9-20be1cd3ce60.png" width="800">
+
+The large-scale KG (987 nodes and 3639 edges) and the simplified KG (178 nodes and 298 edges). Both of these graphs reveal the most overrepresented biological processes during a SARS-CoV-2 infection, as well as, the potential treatment options with COVID-19 related pre-clinical/clinical results and our novel _in silico_ predictions (for both virus and host proteins) considering long-term drug discovery or short-term drug repositioning applications.
 
 ## License
 
