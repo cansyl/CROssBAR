@@ -34,7 +34,7 @@ Technologies used:
 
 ## Deep Learning-based Relation Prediction
 
-__**DEEPScreen:**__
+<ins>**DEEPScreen:**</ins>
 
 <img src="https://user-images.githubusercontent.com/13165170/88064485-05aba000-cb74-11ea-8ff5-ca3cf1fd5d67.png" width="600"> 
 
@@ -43,7 +43,7 @@ DEEPScreen is a high performance drug–target interaction predictor that utiliz
 DEEPScreen can be exploited in the fields of drug discovery and repurposing for in silico screening of the chemogenomic space, to provide novel DTIs which can be experimentally pursued. The source code, trained "ready-to-use" prediction models, all datasets and the results of this study are available at [DEEPScreen GitHub repository](https://github.com/cansyl/DEEPscreen). More information is available at [DEEPScreen journal paper](https://doi.org/10.1039/C9SC03414E).
 
 
-__MDeePred:__
+<ins>MDeePred:</ins>
 
 <img src="https://user-images.githubusercontent.com/13165170/88065912-da29b500-cb75-11ea-977d-d38ab648077d.png" width="600"> 
 
