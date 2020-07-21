@@ -34,7 +34,7 @@ Technologies used:
 
 ## Deep Learning-based Relation Prediction
 
-**DEEPScreen:**\
+**DEEPScreen:**
 
 <img src="https://user-images.githubusercontent.com/13165170/88064485-05aba000-cb74-11ea-8ff5-ca3cf1fd5d67.png" width="600"> 
 
