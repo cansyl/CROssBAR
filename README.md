@@ -22,9 +22,14 @@ The purpose of the CROssBAR project is to address the limitations related to dat
 
 <img src="https://user-images.githubusercontent.com/13165170/88060719-42c16380-cb6f-11ea-84c4-e7f7163e152d.png" width="600"> 
 
-![CROssBAR-DB_API](https://user-images.githubusercontent.com/13165170/88058594-59b28680-cb6c-11ea-9bf6-8d0ba3c66cf8.png) | tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst st tst tst tst tst tst tst tst tst tst tst tst tst tst tst tst
------------- | -------------
+We constructed the CROssBAR database to integrate vast amounts of biological information from various well-known resources. Data pipelines are developed for the heavy lifting of data from different databases such as UniProt, IntAct, DrugBank, ChEMBL, PubChem, Reactome, KEGG, OMIM, Orphanet and EFO, by persisting specific data attributes with the implementation of logic rules.
 
+The CROssBAR database of attributes is hosted in self-sufficient, easy to access collections in MongoDB and it is available both to end-users and to the CROssBAR webservice through an API at: [CROssBAR-API](https://www.ebi.ac.uk/Tools/crossbar/swagger-ui.html).
 
+Technologies used:
+* Java 8,
+* Mongo DB v3.4.9,
+* Groovy and Spock framework for tests,
+* Maven dependency management
 
 
