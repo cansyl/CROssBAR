@@ -1,9 +1,11 @@
-# Generation of CROssBAR COVID-19 KGs
-We constructed two versions of COVID-19 knowledge graph. 
+# CROssBAR COVID-19 KGs
+As a use case of the CROssBAR system, we present the SARS-CoV-2 infection, a.k.a. COVID-19 CROssBAR knowledge graph (KG). We constructed two versions of COVID-19 knowledge KG: 
 - First, the large-scale version that includes nearly the whole of the COVID-19 related information recently accumulated in the scientific literature, organized and presented in an interpretable way.
 - Second, the simplified version that is suitable for quick exploration. The aim behind constructing the simplified version was that the large-scale KG is not easily explorable visually due to the huge size of the graph. 
 Below, we describe the methodology followed for the generation of CROssBAR COVID-19 KGs.
+
 ## Large-Scale COVID-19 KG
+
 Generation of the large-scale COVID-19 graph started with acquiring the related EFO disease term named: "COVID-19" (id: MONDO:0100096). We also incorporated the disease term for "Severe acute respiratory syndrome" (id: EFO:0000694) (the previous SARS) into the graph since SARS is better annotated compared to COVID-19. The full-scale COVID-19 KG construction is accomplished as described below:
 
 **1. COVID-19 related genes/proteins and PPIs:**
@@ -84,6 +86,9 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 ![COVID19_final_network_crossbar_layout_diseases_v2](https://user-images.githubusercontent.com/8128032/86535460-2bd10f00-bee9-11ea-86b2-7118bdedfcbb.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+- Large-scale COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be intractivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19.php).
+
 **The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3639 edges (i.e., various types of relations).**
 
 ![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/8128032/85949366-f9f70000-b95e-11ea-9db1-876de2c577d7.png)
@@ -93,10 +98,11 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - For the construction of the simplified COVID-19 KG, the starting point was the COVID-19 associated proteins in the UniProt COVID-19 portal (https://covid-19.uniprot.org/), instead of the IntAct SARS-CoV-2 interactions dataset, which was used as the base gene/protein set for the large-scale KG. 
 - The remaining steps of building the graph were mainly similar except that, additional nodes representing the organisms: human, SARS-CoV and SARS-CoV-2 were placed in the graph and connected to the corresponding proteins. 
 - The simplified version is not just a subset of the large-scale KG since the starting point of gene/protein collection were different in two KGs, resulting in graphs with slightly different content.
+- Simplified COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be intractivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19_simplified.php).
 
 **The simplified COVID-19 KG includes a total of 178 nodes and 298 edges.**
 
-![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/8128032/86004107-751dec00-ba1b-11ea-8517-133f57c443cc.png)
+![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/13165170/88110249-8f7b5d80-cbb4-11ea-827a-bceb3162be86.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Node Filtering via Overrepresentation Analysis
