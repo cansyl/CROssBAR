@@ -116,7 +116,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - *E<sub>D,W</sub>* is the enrichment score calculated for the disease term *D* for graph *W*; *m<sub>D</sub><sup>2</sup>* represent the square of the number of genes/proteins in graph *W* that are associated with disease *D*; *n<sub>W</sub>* represents the total number of genes/proteins having disease associations in graph *W*; *M<sub>D<sub>* is the total number of genes/proteins (not necessarily in graph *W*) that is associated with disease *D*; and *N* represents the total number of reviewed human gene/protein entries (i.e., UniProtKB/Swiss-Prot entries) in the data source that is annotated with any disease entry. *S<sub>D,W</sub>* represents the significance (p-value) for the disease term *D* for graph *W* calculated in the hypergeometric test.
 - An enrichment score is calculated for each disease entry having associations with the graph gene/protein nodes and these scores are used to rank these disease entries according to their biological relevance to graph. 
 - In the traditional way of calculating an enrichment score, *m<sub>D</sub>* is without square. The reason behind taking the square of *m<sub>D</sub>* here is to break the tie between the scores of terms in favor of the one with a higher *m<sub>D</sub>* value.
-- Apart from diseases, the same methodology is used to filter out the nodes of phenotypes, drugs, compounds and pathways. 
+- Apart from diseases, the same methodology is used to filter out the nodes of phenotypes, drugs, compounds and pathways.
+- Enrichment score tables are provided for both large-scale and simplified COVID-19 KGs in the folder: "COVID-19_KG_overrepresentation_analysis_results".
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Loading COVID-19 KGs on Cytoscape
 To load the large-scale and simplified COVID-19 KGs on Cytoscape:
