@@ -95,7 +95,7 @@ CROssBAR COVID-19 knowledge graphs (KGs) are constructed with aim of collecting 
 
 The large-scale KG (987 nodes and 3639 edges) and the simplified KG (178 nodes and 298 edges). Both of these graphs reveal the most overrepresented biological processes during a SARS-CoV-2 infection, as well as, the potential treatment options with COVID-19 related pre-clinical/clinical results and our novel _in silico_ predictions (for both virus and host proteins) considering long-term drug discovery or short-term drug repositioning applications.
 
-For more information about the COVID-19 knowledge graphs, please refer to our project paper or visit [CROssBAR COVID-19 KG folder](https://github.com/cansyl/CROssBAR/COVID-19_KG_use-cases). For information about the comparative _in vitro_ cell-based analysis together with the datasets please visit [CROssBAR wet-lab analysis folder](https://github.com/cansyl/CROssBAR/In_vitro_assays).
+For more information about the COVID-19 knowledge graphs, please refer to our project paper or visit [CROssBAR COVID-19 KG folder](https://github.com/cansyl/CROssBAR/COVID-19_KGs). For information about the comparative _in vitro_ cell-based analysis together with the datasets please visit [CROssBAR wet-lab analysis folder](https://github.com/cansyl/CROssBAR/In_vitro_assays).
 
 
 
