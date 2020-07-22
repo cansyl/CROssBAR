@@ -32,7 +32,7 @@ The prototype network model was created in 7 main steps:
 
 - 45 PPIs between 31 proteins
 
-<img src="https://user-images.githubusercontent.com/8128032/61718989-b702d480-ad6c-11e9-849b-0245642cca10.png" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/8128032/61718989-b702d480-ad6c-11e9-849b-0245642cca10.png" width="500" height="350">
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
