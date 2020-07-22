@@ -2,6 +2,7 @@
 As a use case of the CROssBAR system, we present the SARS-CoV-2 infection, a.k.a. COVID-19 CROssBAR knowledge graph (KG). We constructed two versions of COVID-19 knowledge KG: 
 - First, the large-scale version that includes nearly the whole of the COVID-19 related information recently accumulated in the scientific literature, organized and presented in an interpretable way.
 - Second, the simplified version that is suitable for quick exploration. The aim behind constructing the simplified version was that the large-scale KG is not easily explorable visually due to the huge size of the graph. 
+
 Below, we describe the methodology followed for the generation of CROssBAR COVID-19 KGs.
 
 ## Large-Scale COVID-19 KG
