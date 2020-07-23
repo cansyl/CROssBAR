@@ -42,9 +42,9 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Edge color: blue
 
 **2c. Computationally predicted drug/compound-target interactions** 
-- They were obtained from our in-house deep learning based tools DEEPScreen [Rifaioglu-2020-I] and MDeePred [Rifaioglu-2020-II]. 
+- They were obtained from our in-house deep learning based tools [DEEPScreen](https://github.com/cansyl/DEEPscreen) [Rifaioglu-2020-I] and [MDeePred](https://github.com/cansyl/MDeePred) [Rifaioglu-2020-II]. 
 - Overepresentation analysis was applied as same in part 2b for DeepScreen compound-target interaction predictions and 5 compounds in different clusters were selected for each protein.
-- MDeePred predictions were generated from the prediction models of ACE2 receptor protein and SARS-CoV-2 3C-like proteinase. 5 predicted drugs for ACE2 receptor and 3C-like proteinase were selected. 
+- MDeePred predictions were generated from the prediction models of ACE2 receptor protein and SARS-CoV-2 3C-like proteinase. 5 predicted drugs for ACE2 receptor and 3C-like proteinase were selected. Full prediction lists, together with the model training datasets are provided in the folder: "COVID-19_MDeePred_DTI_Predictions".
 - Edge color: red 
 <br /> <br /> 
 - Drug and compound nodes were merged with respect to drug-compound entry correspondences in DrugBank and ChEMBL databases. This way, some of the drug nodes also contain experimental bioassay based relations (i.e., blue colored edges) and computationally predicted relations (i.e., red colored edges). 
