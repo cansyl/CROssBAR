@@ -64,7 +64,7 @@ In CROssBAR knowledge graphs, different biological components, such as;
 
 are represented as nodes, and the known and predicted pairwise relationships are annotated and displayed as labeled edges. The knowledge graphs are constructed on the fly, each time the CROssBAR database is queried by the user. To convert the full output of user queries, which are initially extremely large biological networks, into biologically meaningful and interpretable representations without losing primary relationships, we applied intensive node enrichment operations. The knowledge graphs are displayed to the user as heterogeneous biological networks and their purpose is to aid biomedical research, especially in the fields of drug discovery and repositioning, by providing a concise piece of relevant biological information to the user in real time.  
 
-For COVID-19 Knowledge Graph use-case please refer to the corresponding section below, for the manually constructed prototype hepatocellular carcinoma (HCC) network please visit [CROssBAR HCC network folder](https://github.com/cansyl/CROssBAR/Prototype_HCC_Network).
+For [COVID-19 Knowledge Graph use-case](https://github.com/cansyl/CROssBAR/COVID-19) please refer to the corresponding section below, for the manually constructed prototype hepatocellular carcinoma (HCC) network please visit [CROssBAR HCC network folder](https://github.com/cansyl/CROssBAR/Prototype_HCC_Network).
 
 ## CROssBAR Web-Service
 
