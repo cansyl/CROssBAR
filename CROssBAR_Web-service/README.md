@@ -1,6 +1,6 @@
 # CROssBAR Web-service
 
-Online CROssBAR web-service is developed to make the integrated biomedical data available to the public in an easily interpretable, interactive way via a graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly. Hr, w provid 2 simpl us-cass for the CROssBAR web-service:
+Online CROssBAR web-service is developed to make the integrated biomedical data available to the public in an easily interpretable, interactive way via a graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly. Here, we provide 2 simple use-cases for the CROssBAR web-service:
 
 ## Web-service Use-case 1
 
