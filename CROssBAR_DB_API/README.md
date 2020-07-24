@@ -12,4 +12,6 @@ CROssBAR database is constructed by collecting relational data from various biom
 
 <ins>**Full-scale work-flow of the CROssBAR-API queries for the construction of knowledge graphs**</ins>**:**
 
+Here, the finalized filtered dataset of each biological component (i.e., genes/proteins, diseases, phenotypes, drugs, compounds and pathways) is shown with a shape surrounded by a black frame. The graph is built using the entities in these datasets, together with their inter-component relations.
+
 <img src="https://user-images.githubusercontent.com/13165170/88443673-e9348f80-ce21-11ea-9321-9eb68cb224b0.png">
