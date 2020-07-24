@@ -8,4 +8,4 @@ CROssBAR database is constructed by collecting relational data from various biom
 
 **CROssBAR-DB statistics:**
 
-<img src="https://user-images.githubusercontent.com/13165170/88442532-83de9f80-ce1d-11ea-8618-251c8aad3055.png">
+<img src="https://user-images.githubusercontent.com/13165170/88442532-83de9f80-ce1d-11ea-8618-251c8aad3055.png" width="600">
