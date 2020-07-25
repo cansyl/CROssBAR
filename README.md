@@ -18,6 +18,9 @@ The purpose of the CROssBAR project is to address the limitations related to dat
 
 **5) COVID-19 and other use-cases:** CROssBAR COVID-19 knowledge graphs are constructed with aim of collecting the related data from various biomedical resources, applying filtering operations and presenting it in a coherent and standardized form to the research community. Along with up-to-date information reported in source databases, our COVID-19 KGs also incorporates several new drugs (either by enrichment analysis or predicted by our deep-learning models) that can contribute to the studies on developing novel medications against SARS-CoV-2. We also conducted *in vitro* cell based wet-lab experiments (i.e., gene expression analysis) to compare its results with the computationally-inferred information.  
 
+br {
+        line-height: 200%;
+     }
 <br>
 
 ## CROssBAR Database & API
