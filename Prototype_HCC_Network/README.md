@@ -1,6 +1,6 @@
 # Prototype Hepatocellular Carcinoma Network
 
-We constructed a prototype disease network for hepatocellular carcinoma (HCC) using CROssBAR integrated data resources (and some additional ones), by setting multiple enrichment based filters to include only the most relevant biomedical entities. Later, this workflow have been automatized to generate the knowledge graphs and to visualize them using CytoScape web plug-in, through the CROssBAR web-service. Below, we describe the steps applied to construct the prototype network.
+We manually constructed a prototype disease network for hepatocellular carcinoma (HCC) using CROssBAR integrated data resources (and some additional ones), by setting multiple enrichment based filters to include only the most relevant biomedical entities. Later, this workflow have been automatized to generate the knowledge graphs and to visualize them using CytoScape web plug-in, through the CROssBAR web-service. Below, we describe the steps applied to construct the prototype network.
 
 
 **Workflow for the construction of the network:**
