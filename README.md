@@ -32,6 +32,8 @@ Technologies used:
 * Groovy and Spock framework for tests,
 * Maven dependency management  
 
+For more information about the CROssBAR Database & API, please refer to our project paper or visit [CROssBAR_DB_API folder](https://github.com/cansyl/CROssBAR/tree/master/CROssBAR_DB_API).
+
 ## Deep Learning-based Relation Prediction
 
 <ins>**DEEPScreen:**</ins>
