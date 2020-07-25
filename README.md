@@ -64,7 +64,7 @@ In CROssBAR knowledge graphs, different biological components, such as;
 
 are represented as nodes, and the known and predicted pairwise relationships are annotated and displayed as labeled edges. The knowledge graphs are constructed on the fly, each time the CROssBAR database is queried by the user. To convert the full output of user queries, which are initially extremely large biological networks, into biologically meaningful and interpretable representations without losing primary relationships, we applied intensive node enrichment operations. The knowledge graphs are displayed to the user as heterogeneous biological networks and their purpose is to aid biomedical research, especially in the fields of drug discovery and repositioning, by providing a concise piece of relevant biological information to the user in real time.  
 
-For [COVID-19 Knowledge Graph use-case](https://github.com/cansyl/CROssBAR/COVID-19_KGs) please refer to the corresponding section below, for the manually constructed prototype hepatocellular carcinoma (HCC) network please visit [CROssBAR HCC network folder](https://github.com/cansyl/CROssBAR/Prototype_HCC_Network).
+For [COVID-19 Knowledge Graph use-case](https://github.com/cansyl/CROssBAR/tree/master/COVID-19_KGs) please refer to the corresponding section below, for the manually constructed prototype hepatocellular carcinoma (HCC) network please visit [CROssBAR HCC network folder](https://github.com/cansyl/CROssBAR/tree/master/Prototype_HCC_Network).
 
 ## CROssBAR Web-Service
 
@@ -79,7 +79,7 @@ In order to make the CROssBAR knowledge graphs (KG) available to the public in a
 
 As a result of a search requested by the user, the input containing the search term(s) in the CROssBAR database is extracted via the API and the components that have a biological relationship with this input (e.g. a signalling pathway, of which the searched protein is a member, or a disease known to occur as a result of a mutation in the protein sought, or target proteins known to interact with the searched drug molecule) are extracted from the database. For the layout of the components on th graphs, CROssBAR-layout is developed, in which biological components of a specific type are placed on circular points within fixed radii.  
 
-For CROssBAR Web-Service use-cases please visit [CROssBAR_Web-Service folder](https://github.com/cansyl/CROssBAR/CROssBAR_Web-service).
+For CROssBAR Web-Service use-cases please visit [CROssBAR_Web-Service folder](https://github.com/cansyl/CROssBAR/tree/master/CROssBAR_Web-service).
 
 ## COVID-19 Knowledge Graphs
 
@@ -95,7 +95,7 @@ CROssBAR COVID-19 knowledge graphs (KGs) are constructed with aim of collecting 
 
 The large-scale KG (987 nodes and 3639 edges) and the simplified KG (178 nodes and 298 edges). Both of these graphs reveal the most overrepresented biological processes during a SARS-CoV-2 infection, as well as, the potential treatment options with COVID-19 related pre-clinical/clinical results and our novel _in silico_ predictions (for both virus and host proteins) considering long-term drug discovery or short-term drug repositioning applications.
 
-For more information about the COVID-19 knowledge graphs, please refer to our project paper or visit [CROssBAR COVID-19 KG folder](https://github.com/cansyl/CROssBAR/COVID-19_KGs). For information about the comparative _in vitro_ cell-based analysis together with the datasets please visit [CROssBAR wet-lab analysis folder](https://github.com/cansyl/CROssBAR/In_vitro_assays).
+For more information about the COVID-19 knowledge graphs, please refer to our project paper or visit [CROssBAR COVID-19 KG folder](https://github.com/cansyl/CROssBAR/tree/master/COVID-19_KGs). For information about the comparative _in vitro_ cell-based analysis together with the datasets please visit [CROssBAR wet-lab analysis folder](https://github.com/cansyl/CROssBAR/tree/master/In_vitro_assays).
 
 
 
