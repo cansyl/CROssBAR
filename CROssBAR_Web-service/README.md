@@ -20,4 +20,4 @@ A drug search on CROssBAR can also be utilized towards identifying new drug-like
 <img src="https://user-images.githubusercontent.com/13165170/88282515-63fe8d00-ccf2-11ea-9c45-ef8212840b60.png" width="600"> 
 
 
-More information about these use-cases can be found in our project paper. More information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.
+More information about these use-cases can be found in our project paper. More information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.php.
