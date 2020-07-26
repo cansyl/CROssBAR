@@ -1,0 +1,2950 @@
+[ {
+    "selector" : "node",
+    "css" : {
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "text-opacity" : 1.0,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "width" : 25.0,
+      "border-width" : 0.0,
+      "border-color" : "rgb(204,204,204)",
+      "shape" : "roundrectangle",
+      "font-size" : 10,
+      "font-weight" : "normal",
+      "background-opacity" : 1.0,
+      "height" : 25.0,
+      "background-color" : "rgb(137,208,245)",
+      "content" : "data(Node_Name)"
+    }
+  }, {
+    "selector" : "node[Taxonomy_Name = 'SARS-CoV-2']",
+    "css" : {
+      "border-color" : "rgb(204,0,0)"
+    }
+  }, {
+    "selector" : "node[Taxonomy_Name = 'Human SARS coronavirus']",
+    "css" : {
+      "border-color" : "rgb(0,153,51)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg disease']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'reactome pathway']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'efo disease']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'hpo']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'protein']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg pathway']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg disease']",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'reactome pathway']",
+    "css" : {
+      "background-color" : "rgb(0,153,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'efo disease']",
+    "css" : {
+      "background-color" : "rgb(204,0,0)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'hpo']",
+    "css" : {
+      "background-color" : "rgb(102,0,153)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'protein']",
+    "css" : {
+      "background-color" : "rgb(255,102,0)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg pathway']",
+    "css" : {
+      "background-color" : "rgb(0,102,153)"
+    }
+  }, {
+    "selector" : "node[Taxonomy_Name = 'SARS-CoV-2']",
+    "css" : {
+      "border-width" : 15.0
+    }
+  }, {
+    "selector" : "node[Taxonomy_Name = 'Human SARS coronavirus']",
+    "css" : {
+      "border-width" : 15.0
+    }
+  }, {
+    "selector" : "node[ id = '160' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '512' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '608' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '640' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '672' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '704' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '736' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '768' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '800' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '832' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '864' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '960' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '992' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1025' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '161' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '289' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '513' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '609' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '641' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '673' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '705' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '737' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '769' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '801' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '833' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '865' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '897' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '961' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '162' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '290' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '354' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '418' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '546' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '610' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '642' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '674' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '706' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '738' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '770' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '802' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '834' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '994' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1027' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '547' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '611' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '643' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '675' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '707' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '739' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '771' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '867' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '963' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '548' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '612' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '644' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '676' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '708' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '740' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '804' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '836' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '868' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '964' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '996' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '485' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '581' ]",
+    "css" : {
+      "width" : 65.0,
+      "height" : 65.0
+    }
+  }, {
+    "selector" : "node[ id = '613' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '645' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '677' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '709' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '741' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '773' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '805' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '837' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '869' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '901' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '933' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '518' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '614' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '646' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '678' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '710' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '742' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '774' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '806' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '870' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '902' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '167' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '519' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '615' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '647' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '679' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '711' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '743' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '807' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '839' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '871' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '903' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '935' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '967' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '999' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1032' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '136' ]",
+    "css" : {
+      "width" : 50.0,
+      "height" : 50.0
+    }
+  }, {
+    "selector" : "node[ id = '616' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '648' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '712' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '744' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '776' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '840' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '872' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '904' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '968' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '137' ]",
+    "css" : {
+      "width" : 45.0,
+      "height" : 45.0
+    }
+  }, {
+    "selector" : "node[ id = '521' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '617' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '649' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '681' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '713' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '745' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '777' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '809' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '873' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '905' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '937' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '969' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1001' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '138' ]",
+    "css" : {
+      "width" : 55.0,
+      "height" : 55.0
+    }
+  }, {
+    "selector" : "node[ id = '170' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '522' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '618' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '650' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '682' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '714' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '778' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '810' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '842' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '874' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '906' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '938' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '427' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '523' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '619' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '651' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '683' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '715' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '747' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '875' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '971' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1003' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '172' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '556' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '620' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '684' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '716' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '748' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '780' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '812' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '844' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '876' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '908' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1004' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '173' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '269' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '525' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '557' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '621' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '717' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '749' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '781' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '813' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '845' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '877' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '973' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '526' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '622' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '686' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '718' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '782' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '846' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '942' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1006' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '367' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '463' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '559' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '623' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '655' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '687' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '719' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '751' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '783' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '815' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '847' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '911' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '943' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '975' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '304' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '336' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '464' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '624' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '656' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '688' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '720' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '752' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '784' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '816' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '848' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '880' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '976' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1008' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '145' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '177' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '241' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '465' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '625' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '657' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '689' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '721' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '753' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '785' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '849' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '881' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '945' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '146' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '626' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '658' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '690' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '722' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '754' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '786' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '818' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '882' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '914' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '946' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1010' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '147' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '531' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '627' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '659' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '691' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '755' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '883' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '947' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '979' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '148' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '468' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '500' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '532' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '628' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '660' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '724' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '756' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '788' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '820' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '852' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '884' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '916' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '948' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1012' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1045' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '149' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '277' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '469' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '533' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '629' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '661' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '693' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '725' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '757' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '821' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '885' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '917' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '949' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '981' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1013' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '150' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '278' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '534' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '630' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '662' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '694' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '726' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '758' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '790' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '822' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '854' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '886' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '982' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1047' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '151' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '535' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '599' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '631' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '663' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '695' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '727' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '759' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '791' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '823' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '855' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '919' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '152' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '248' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '344' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '536' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '600' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '632' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '664' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '696' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '728' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '760' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '824' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '856' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '888' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '920' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '153' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '249' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '473' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '601' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '633' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '665' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '697' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '729' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '761' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '793' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '825' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '857' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '921' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '154' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '442' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '602' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '634' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '666' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '698' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '730' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '762' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '794' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '826' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '890' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '922' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '954' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '155' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '443' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '603' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '635' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '667' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '699' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '731' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '763' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '795' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '827' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '859' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '891' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '955' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '156' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '252' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '444' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '476' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '604' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '636' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '668' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '700' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '732' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '796' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '828' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '860' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '892' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '924' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '988' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1020' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '157' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '445' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '541' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '605' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '637' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '701' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '733' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '765' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '797' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '829' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '861' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '957' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '989' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '1021' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '62' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '158' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '254' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '478' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '606' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '638' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '670' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '702' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '734' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '766' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '798' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '830' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '159' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '543' ]",
+    "css" : {
+      "width" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "height" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '607' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '639' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '671' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '703' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '735' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '767' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '799' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '831' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '863' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '927' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '959' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '991' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, 
+   
+{
+  "selector": "node.highlightednode",
+  "style": {
+    "text-opacity"	  : "1",
+    "font-size"		  : "15px",
+	"text-wrap"	 	  : "wrap",
+	"text-max-width"  : 200
+  }
+},
+{
+  "selector": "node:selected",
+  "style": {
+    "text-opacity": "1",
+    "font-size": "15px"
+  }
+},
+{
+	"selector": "node.highlight",
+	"style": {
+		"border-color"	  : "#000000",
+		"border-width"	  : "2px",
+		"font-size"		  : "15px",
+		"text-wrap"	 	  : "wrap",
+		"text-max-width"  : 250
+	}
+},
+{
+	"selector": "node.semitransp",
+	"style":{ "opacity": "0.5" }
+},
+   
+   {
+    "selector" : "edge",
+    "css" : {
+      "width" : "1px",
+	  "line-color" : "#7f8c8d",
+	  "curve-style": "unbundled-bezier",
+	  "opacity" : "0.25",
+	  "label": "data(edge_label)",
+	  "text-rotation": "autorotate",
+	  "text-margin-x": "10px",
+      "font-size" : "0px"
+    }
+  }, {
+    "selector" : "edge[edge_label = 'is ortholog of']",
+    "css" : {
+      
+    }
+  }, {
+    "selector" : "edge[edge_label = 'is subunit of']",
+    "css" : {
+      
+    }
+  }, {
+    "selector" : "edge[edge_color = 'red']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'green']",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'blue']",
+    "css" : {
+      "line-color" : "rgb(0,51,255)"
+    }
+  }, {
+    "selector" : "edge[ id = '1600' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1601' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1602' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '4419' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1603' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1604' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1605' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1606' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1607' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1608' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1609' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '4428' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '4367' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3568' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3603' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '4468' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3573' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1048' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3576' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3608' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1593' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1594' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3579' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1595' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1596' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1597' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '3614' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1598' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '1599' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  },
+{
+	"selector": "edge.highlight",
+	"style": { "width":"3px","opacity":"1","font-size": "10px",
+	"mid-target-arrow-color": "#FFF" }
+},
+{
+	"selector": "edge.highlightededge",
+	"style": { "width":"3px","opacity":"1","font-size": "10px"}
+},
+{
+	"selector": "edge.semitransp",
+	"style":{ "opacity": "0.2" }
+},
+   {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
