@@ -25,4 +25,4 @@ An interesting observation on the resulting KG are the compound nodes: [CHEMBL27
 
 Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 2 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by entering the job id: 1595769687 on the job id box at the top of the page.
 
-More information about these use-cases can be found in our project paper. More information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.php.
+More information about these use-cases can be found in our project paper. More information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.php. The entire CROssBAR web-service including the web-site and the underlying API queries can be found in the folder entitled: "CROssBAR_Web-service_Source/crossbar" above.
