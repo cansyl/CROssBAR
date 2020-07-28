@@ -2,7 +2,8 @@
 $drugs_str = implode(',',$drugs);
 $acc_of_drugs = array();
 
-fwrite($report, "\nDRUGs to be searched: $drugs_str\n");
+#fwrite($report, "\nDRUGs to be searched: $drugs_str\n");
+fwrite($report, "\nQuery terms: $drugs_str (drug)\n");
 
 $acc_of_drugs	 		= array(); # drug aramasindan gelen tum proteinlerin toplandigi array
 $acc_of_drugbank		= array(); # drugbank'ten gelen proteinlerin toplandigi array
@@ -27,7 +28,6 @@ if( ($drug_entities = (fetch_data('/drugs?limit=10&name='.urlencode($drugs_str))
 				#$acc_of_drugbank[] = $accession;
 				$accs_of_this_drug[] = $accession;
 				$starter_searchs['drugs'][$drug->identifier]['edges'][] = $accession;
-
 			}
 		
 		# ChEMBL'DAN PROTEIN (ACCESSION) TOPLAMA ISLEMI...
@@ -36,10 +36,14 @@ if( ($drug_entities = (fetch_data('/drugs?limit=10&name='.urlencode($drugs_str))
 			if($drug->chembl_id !== null){
 				#$moleculeChemblIds 	= implode(',',$chemblIDs);
 				#$acc_of_chembl 		= chembl_id_to_acc($moleculeChemblIds,$num_of_nodes);
-				$chembl_accs_of_drug =  array_diff( chembl_id_to_acc($drug->chembl_id,$num_of_nodes) , $accs_of_this_drug);
-				$acc_of_chembl = array_merge($acc_of_chembl,$chembl_accs_of_drug);
-				$starter_searchs['drugs'][$drug->identifier]['chembl_edges'] = $chembl_accs_of_drug;
-				fwrite($report,'Accessions collected from ChEMBL via drug ['.$drug->name .']   '.implode(',',$chembl_accs_of_drug)."\n");
+				$tmp_acc = chembl_id_to_acc($drug->chembl_id,$num_of_nodes);
+				if($tmp_acc !== false){
+					$chembl_accs_of_drug =  array_diff( $tmp_acc['proteins'] , $accs_of_this_drug);
+					$acc_of_chembl = array_merge($acc_of_chembl,$chembl_accs_of_drug);
+					$starter_searchs['drugs'][$drug->identifier]['chembl_edges'] = $chembl_accs_of_drug;
+					fwrite($report,'Accessions collected from ChEMBL via drug ['.$drug->name .']   '.implode(',',$chembl_accs_of_drug)."\n");
+				}else
+					fwrite($report,'Could not found any accession with chembl: '. $drug->chembl_id ."\n");
 			}else
 				fwrite($report,'There is no chembl_ids related to '.$drug->name ."\n");
 		}
@@ -62,19 +66,25 @@ if($search_parameters['options']['reviewed_filter'] == 1){
 		}
 	}
 }
-$acc_of_drugs_str = implode(',',$acc_of_drugs);
+#$acc_of_drugs_str = implode(',',$acc_of_drugs);
 # CROssBAR protein collection to be processed.
-if( ($prots = fetch_data('/proteins?limit='.count($acc_of_drugs).'&accession='.$acc_of_drugs_str)) !== false){
-	$prots = (array)$prots;
-	if(isset($prots['proteins'])){
-		$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
+#$total_acc_of_drugs = count($acc_of_drugs);
+$acc_of_drugs = array_unique($acc_of_drugs);
+$divided_accs_list = array_chunk($acc_of_drugs,100);
+foreach($divided_accs_list as $acc_of_drugs_divided){
+	$acc_of_drugs_str = implode(',', $acc_of_drugs_divided);
+	if( ($prots = fetch_data('/proteins?limit=100&accession='.$acc_of_drugs_str)) !== false){
+		$prots = (array)$prots;
+		if(isset($prots['proteins'])){
+			$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
+		}else{
+			fwrite($report, "\n".'Error occured while fetching proteins with accessions: '.$acc_of_drugs_str."\n".'/proteins?limit=100&accession='.$acc_of_drugs_str."\n\n");
+			#die('Protein Fetch Error');
+		}
 	}else{
-		fwrite($report, "\n".'Error occured while fetching proteins with accessions: '.$acc_of_drugs_str."\n".'/proteins?limit='.count($acc_of_drugs).'&accession='.$acc_of_drugs_str."\n\n");
-		die('Protein Fetch Error');
+		fwrite($report, "\n".'Error occured while fetching proteins with accessions: '.$acc_of_drugs_str."\n".'/proteins?limit=100&accession='.$acc_of_drugs_str."\n\n");
+		#die('Protein Fetch Error');
 	}
-}else{
-	fwrite($report, "\n".'Error occured while fetching proteins with accessions: '.$acc_of_drugs_str."\n".'/proteins?limit='.count($acc_of_drugs).'&accession='.$acc_of_drugs_str."\n\n");
-	die('Protein Fetch Error');
 }
 #var_dump($crossbar_proteins);
 

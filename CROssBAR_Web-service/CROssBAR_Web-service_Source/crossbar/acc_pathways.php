@@ -3,7 +3,7 @@ $pathways_str = implode(',',$pathways);
 $kegg_starter_pathways_str = implode(',',$kegg_starter_pathways);
 if(count($kegg_starter_pathways)){
 	# kegg pathways ekleniyor burda
-	fwrite($report, "\nKEGG pathway(s) to be searched: $kegg_starter_pathways_str\n\n");
+	fwrite($report, "\nQuery terms: $kegg_starter_pathways_str (kegg pathway)\n\n");
 	$a = microtime(true);
 	include('node_kegg_starter_pathway_accessions.php');
 	$aa = microtime(true);
@@ -11,7 +11,7 @@ if(count($kegg_starter_pathways)){
 	fwrite($report,'KEGG pathway operations takes '.$aaa." seconds.\n\n");
 	$starter_searchs['kegg_diseases'] = $kegg_starter_diseases;
 }else
-	fwrite($report,'No pathway found in KEGG database with "'.$pathways_str.'"'."\n\n");
+	fwrite($report,'Could not found any kegg pathway in database with "'.$pathways_str.'"'."\n\n");
 
 $acc_of_pathways = array();
 
@@ -33,13 +33,15 @@ if(is_object($protOfPWs)){
 #var_dump($pathways); die();
 
 # CROssBAR protein collection to be processed.
-if( ($prots = fetch_data('/proteins?limit=1000&reactome='.urlencode($pathways_str).'&taxId='.$tax_ids_str)) !== false){
-	fwrite($report, 'PATHWAYs to be searched: "'.$pathways_str.'"'."\n");
+if( ($prots = fetch_data('/proteins?limit=100&reactome='.urlencode($pathways_str).'&taxId='.$tax_ids_str)) !== false){
+	fwrite($report, 'Query terms: '.$pathways_str.' (pathway)'."\n");
 	$prots = (array)$prots;
 	if(isset($prots['proteins'])){
 		$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
 	}else
-		fwrite($report, "\nError occured while fetching proteins with reactomes: \"$pathways_str\"\n".'/proteins?limit=1000&reactome='.$pathways_str.'&taxId='.$tax_ids_str."\n\n");
+		fwrite($report, "\nError occurred while fetching proteins with reactomes: \"$pathways_str\"\n".'/proteins?limit=100&reactome='.$pathways_str.'&taxId='.$tax_ids_str."\n\n");
+}else{
+		fwrite($report, "\nError occurred while fetching proteins with reactomes: \"$pathways_str\"\n".'/proteins?limit=100&reactome='.$pathways_str.'&taxId='.$tax_ids_str."\n\n");
 }
 
 unset($prots);

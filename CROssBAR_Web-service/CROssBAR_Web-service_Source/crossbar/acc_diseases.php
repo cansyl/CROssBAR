@@ -5,7 +5,7 @@ $diseases_str = implode(',',$diseases); # lokalden alıcam artık bu değerleri.
 $kegg_starter_diseases_str = implode(',',$kegg_starter_diseases);
 if(count($kegg_starter_diseases)){
 	# kegg drugs ekleniyor burda
-	fwrite($report, "\nKEGG DISEASE(s) to be searched: $kegg_starter_diseases_str\n\n");
+	fwrite($report, "\nQuery terms: $kegg_starter_diseases_str (kegg disease)\n\n");
 	$a = microtime(true);
 	include('node_kegg_starter_disease_drugs.php');
 	$aa = microtime(true);
@@ -29,7 +29,8 @@ function takeOmimIdsFromEfo($diseases){
 }
 
 if(count($diseases)){
-	fwrite($report, "\nOMIM DISEASE(s) to be searched: $diseases_str\n\n");
+	#fwrite($report, "\nOMIM DISEASE(s) to be searched: $diseases_str\n\n");
+	fwrite($report, "\nQuery terms: $diseases_str (disease)\n\n");
 	foreach($diseases as $disease){
 		$omimIds = array();
 		$oboof_starter = '';
@@ -46,7 +47,7 @@ if(count($diseases)){
 					
 					# if obo_id is an 'Orphanet' id, collect addinitional proteins...
 					if(substr($d->obo_id,0,8) == 'Orphanet')
-						if(($orphanet_accs = fetch_data('/proteins?limit=1000&orphanet='.urlencode($disease))) !== false){
+						if(($orphanet_accs = fetch_data('/proteins?limit=100&orphanet='.urlencode($disease))) !== false){
 							$prots = (array)$orphanet_accs;
 							if(isset($prots['proteins'])){
 								$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
@@ -68,7 +69,7 @@ if(count($diseases)){
 			fwrite($report, "OMIM ids collected from $disease (EFO): $omimIds_str\n");
 
 			# CROssBAR protein collection to be processed.
-			if( ($prots = fetch_data('/proteins?limit=1000&omim='.$omimIds_str)) !== false){
+			if( ($prots = fetch_data('/proteins?limit=100&omim='.$omimIds_str)) !== false){
 				$prots = (array)$prots;
 				
 				if(isset($prots['proteins'])){
@@ -78,7 +79,7 @@ if(count($diseases)){
 						}
 					$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
 				}else
-					fwrite($report, "\nError occured while fetching proteins with OMIM ids: $omimIds_str\n".'/proteins?limit=1000&omim='.$omimIds_str."\n\n");
+					fwrite($report, "\nError occured while fetching proteins with OMIM ids: $omimIds_str\n".'/proteins?limit=100&omim='.$omimIds_str."\n\n");
 			}
 		}
 	}
