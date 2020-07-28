@@ -12,7 +12,7 @@ Trifluoperazine exerts its antipsychotic effect with the blockage of dopamine D2
 
 <img src="https://user-images.githubusercontent.com/13165170/88282490-58ab6180-ccf2-11ea-8668-64d6bec14b9b.png" width="600"> 
 
-Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 1 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by entering the job id: 1595774570 on the job id box at the top of the page.
+Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 1 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by entering the job id: 1595921844 on the job id box at the top of the page.
 
 
 ## Web-service Use-case 2
