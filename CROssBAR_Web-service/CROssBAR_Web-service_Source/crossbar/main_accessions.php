@@ -86,10 +86,36 @@ foreach($search_parameters['search'] as $s){
 			case 'Protein':
 				$prts = explode(',',$data);
 			break;
-
 		}
 	}
 }
+
+fwrite($report, "\nQuery terms: \n");
+if(count($diseases) or count($kegg_starter_diseases)){
+	if(count($diseases))
+		fwrite($report, implode(',',$diseases)." (disease)\n");
+	if(count($kegg_starter_diseases))
+		fwrite($report, implode(',',$kegg_starter_diseases)." (kegg disease)\n");
+}
+if(count($pathways) or count($kegg_starter_pathways)){
+	if(count($pathways))
+		fwrite($report, implode(',',$pathways).' (pathway)'."\n");
+	if(count($kegg_starter_pathways))
+		fwrite($report, implode(',',$kegg_starter_pathways)." (kegg pathway)\n");
+}
+if(count($drugs)){
+	fwrite($report, implode(',',$drugs)." (drug)\n");
+}
+if(count($hpos)){
+	fwrite($report, implode(',',$hpos)." (HPO)\n");
+}
+if(count($compounds)){
+	fwrite($report, implode(',',$compounds)." (compound)\n");
+}
+if(count($prts)){
+	fwrite($report, implode(',',$prts)." (gene/protein)\n");
+}
+fwrite($report, "\n");
 
 if(count($diseases) or count($kegg_starter_diseases)){
 	$b1 = microtime(true);
@@ -107,6 +133,8 @@ if(count($pathways) or count($kegg_starter_pathways)){
 
 if(count($drugs)){
 	$b1 = microtime(true);
+	$drugs_str = implode(',',$drugs);
+	fwrite($report, "\nQuery terms: $drugs_str (drug)\n");
 	include('node_kegg_starter_drug_diseases.php');
 	include('acc_drugs.php');
 	$b2 = microtime(true) - $b1;

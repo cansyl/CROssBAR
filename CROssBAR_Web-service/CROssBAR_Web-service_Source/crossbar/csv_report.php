@@ -73,10 +73,14 @@
 			foreach($protein['predictions'] as $id){
 				$str .= $id . ' [scr:' .  round($predictions[$id]['enrichScore'],2) . ']; ';
 			}
-			fwrite($csv,substr($str,0,-2).",");
-		}else
-			fwrite($csv,",");
+			#fwrite($csv,substr($str,0,-2).",");
+			fwrite($csv,substr($str,0,-2));
+		}
+		/*
+		else
+			fwrite($csv,","); */
 
+		/*
 		if(isset($interacts['Drug']))
 			fwrite($csv,(string)implode('; ',$interacts['Drug']).",");
 		else
@@ -89,6 +93,8 @@
 			fwrite($csv,(string)implode('; ',$interacts['predictions']).",");
 		else
 			fwrite($csv,",");
+		*/
+		
 		fwrite($csv,"\n");
 	}
 	fclose($csv);

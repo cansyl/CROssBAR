@@ -219,7 +219,13 @@
 				</p>
 
 				<p class="row col-12 custom_paragraph mt-2">
-					The knowledge-graph constructed with this query is given below.				
+					The knowledge-graph constructed with this query is given below.	
+					Query nodes and their edges are highlighted by default 
+					in the resulting graph. 
+					The user may un-highlight all the nodes and edges by left-clicking 
+					on an empty space on the graph area. 
+					It is possible to highlight any node and its respective edges 
+					by left-clicking on the node of interest.					
 				</p>
 				<div class="row">
 					<p class="row col-12 mt-1">

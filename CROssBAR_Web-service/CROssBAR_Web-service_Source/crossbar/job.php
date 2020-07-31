@@ -46,6 +46,34 @@
 	
 	<script>
 
+	function make_high(ele){
+		var degree = 
+		(ele.outgoers()
+			.union(ele.incomers())
+			.length) / 2;
+		degree = Math.floor(degree);
+
+		$.ajax({
+			type:"POST",
+			url:'selected_node.php',
+			data: {node:ele.data(), degree:degree},
+			success: function(result){
+				if($('#selected_nodes').hasClass('d-none')){
+					$('#selected_nodes').append('<h5 class="row alert alert-secondary p-1 pb-2 mb-0 border-bottom-0 border-secondary"><b>Selected Nodes</b></h5>');
+					$('#selected_nodes').removeClass('d-none');
+				}
+				$('#selected_nodes').append(result);
+			}
+		});
+
+		ele.addClass('zelected');
+		ele.connectedEdges().connectedNodes().addClass('highlightednode');
+		ele.connectedEdges().animate({
+			style: {width: "3px","opacity":"1","font-size": "10px"}
+		});		
+		
+	}
+
 	function apply_high(name, file){
 		$.ajax( {
 		  url: "take_id_of_node.php",
@@ -55,37 +83,13 @@
 		  },
 		  success: function( data ) {
 			var ele = cy.$('node[id = "'+data+'"]');
-			/*
-			console.log(ele.outgoers());
-			console.log(ele.incomers());
-			*/
-			/*
-			var aa = ele.outgoers().union(ele.incomers());
-			console.log(aa);
-			*/
-			var degree = 
-			(ele.outgoers()
-				.union(ele.incomers())
-				.length) / 2;
-			degree = Math.floor(degree);
-
-			$.ajax({
-				type:"POST",
-				url:'selected_node.php',
-				data: {node:ele.data(), degree:degree},
-				success: function(result){
-					if($('#selected_nodes').hasClass('d-none')){
-						$('#selected_nodes').append('<h5 class="row alert alert-secondary p-1 pb-2 mb-0 border-bottom-0 border-secondary"><b>Selected Nodes</b></h5>');
-						$('#selected_nodes').removeClass('d-none');
-					}
-					$('#selected_nodes').append(result);
-				}
-			});
-			ele.addClass('zelected');
-			ele.connectedEdges().connectedNodes().addClass('highlightednode');
-			ele.connectedEdges().animate({
-				style: {width: "3px","opacity":"1","font-size": "10px"}
-			});
+			if(ele.length)
+				make_high(ele);
+			else{
+				ele2 = cy.$('node[id = "'+name+'"]');
+				if(ele2.length)
+					make_high(ele2);
+			}
 		  }
 		} );
 	}
@@ -98,11 +102,22 @@
 			return style;
 		});
 
+		var cy = window.cy = cytoscape({
+			container: $('#network'),
+			style: my_style,
+			elements: data,
+			layout: {
+				name: 'CrossBarLayout',
+				fit: 'viewport',
+				orderOfNodeTypes: [1,2,3,4,5,6,7]
+			}
+		});
+
 		data.then(function(result) {
 			result.search.forEach((s) => {
 				for (var p in s) {
 					//console.log(s);
-					if( p == 'Disease' ||  p == 'KEGG Disease' || p == 'Drug' || p == 'KEGG Pathway' || p == 'Pathway' || p == 'HPO'){
+					if( p == 'Disease' ||  p == 'KEGG Disease' || p == 'Drug' || p == 'KEGG Pathway' || p == 'Pathway' || p == 'HPO' || p == 'Compound'){
 						for (var x in s[p]) {
 							//console.log(s[p][x]);
 							apply_high(s[p][x], <?=$file_name?>);
@@ -112,6 +127,12 @@
 						$('#search_parameters').append( '<li class="list-group-item">'+p+': '+s[p]+'</li>' );
 						if(p != 'Protein')
 							apply_high(s[p], <?=$file_name?>);
+						else{
+							var accs = s[p].split(",");
+							for (var a in accs){
+								apply_high(accs[a], <?=$file_name?>);
+							}
+						}
 					}
 				}
 			});
@@ -129,16 +150,7 @@
 		
 		});
 
-		var cy = window.cy = cytoscape({
-			container: $('#network'),
-			style: my_style,
-			elements: data,
-			layout: {
-				name: 'CrossBarLayout',
-				fit: 'viewport',
-				orderOfNodeTypes: [1,2,3,4,5,6,7]
-			}
-		});
+
 		/*
 		data.then(function(result) {
 			console.log(result.nodes);

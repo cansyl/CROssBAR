@@ -21,13 +21,18 @@ if($search_parameters['options']['reviewed_filter'] == 1){
 
 if(count($kegg_accessions)){
 	fwrite($report, "\nCollected accessions from KEGG pathway search: \n".implode(',',$kegg_accessions)."\n");
-	$kegg_accessions_str = implode(',',$kegg_accessions);
-	#$prots = (array)json_decode(file_get_contents($url.'/proteins?limit=1000&accession='.$kegg_accessions_str));
-	$prots = (array)fetch_data('/proteins?limit=1000&accession='.$kegg_accessions_str);
-	if(isset($prots['proteins']))
-		$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
-	else
-		fwrite($report, "\nError occured while fetching proteins with KEGG accessions : $kegg_accessions_str\n".'/proteins?limit=1000&accession='.$kegg_accessions_str."\n\n");
+	$kegg_accessions = array_chunk($kegg_accessions,100);
+
+	foreach($kegg_accessions as $kegg_accession){
+		$kegg_accessions_str = implode(',',$kegg_accession);
+		#$prots = (array)json_decode(file_get_contents($url.'/proteins?limit=1000&accession='.$kegg_accessions_str));
+		$prots = (array)fetch_data('/proteins?limit=100&accession='.$kegg_accessions_str);
+		if(isset($prots['proteins']))
+			$crossbar_proteins = array_merge($crossbar_proteins, $prots['proteins']);
+		else
+			fwrite($report, "\nError occured while fetching proteins with KEGG accessions : $kegg_accessions_str\n".'/proteins?limit=100&accession='.$kegg_accessions_str."\n\n");
+	}
+
 }else
 	fwrite($report, "\nCould not found any accession in KEGG database related to pathway\n");
 

@@ -2,10 +2,11 @@
 $diseases_str = implode(',',$diseases); # lokalden alıcam artık bu değerleri.
 #$diseases_str = implode(',',$starter_searchs['diseases']); # lokal'den alınan disease nameleri
 														   # ile arama yapılacak CROssBAR'da.
-$kegg_starter_diseases_str = implode(',',$kegg_starter_diseases);
+
 if(count($kegg_starter_diseases)){
+	$kegg_starter_diseases_str = implode(',',$kegg_starter_diseases);
 	# kegg drugs ekleniyor burda
-	fwrite($report, "\nQuery terms: $kegg_starter_diseases_str (kegg disease)\n\n");
+	fwrite($report, "\nQuery terms: $kegg_starter_diseases_str (kegg disease)\n");
 	$a = microtime(true);
 	include('node_kegg_starter_disease_drugs.php');
 	$aa = microtime(true);
@@ -13,7 +14,7 @@ if(count($kegg_starter_diseases)){
 	fwrite($report,'KEGG disease operations takes '.$aaa." seconds.\n\n");
 	$starter_searchs['kegg_diseases'] = $kegg_starter_diseases;
 }else
-	fwrite($report,'No disease found in KEGG database with '.$kegg_starter_diseases_str."\n\n");
+	fwrite($report,'No disease found in KEGG database with '.$diseases_str."\n\n");
 # echo count($kegg_starter_diseases); # üst satırda include ettiğim dosyadan gelen kegg_starter_diseases
 
 function takeOmimIdsFromEfo($diseases){
@@ -30,11 +31,15 @@ function takeOmimIdsFromEfo($diseases){
 
 if(count($diseases)){
 	#fwrite($report, "\nOMIM DISEASE(s) to be searched: $diseases_str\n\n");
-	fwrite($report, "\nQuery terms: $diseases_str (disease)\n\n");
+	fwrite($report, "\nQuery terms: $diseases_str (disease)\n");
 	foreach($diseases as $disease){
 		$omimIds = array();
 		$oboof_starter = '';
-		if(($disease_entities = fetch_data('/efo?limit=1000&synonym='.urlencode($disease))) !== false){
+		$disease_entities = fetch_data('/efo?limit=1000&synonym='.urlencode($disease));
+		if($disease_entities === false)
+			$disease_entities = fetch_data('/efo?label='.urlencode($disease));
+		if($disease_entities !== false)
+		{
 			foreach($disease_entities->diseases as $d){
 				#if(array_search($d->label,$diseases) !== false){
 				if($d->label == $disease){
@@ -57,10 +62,12 @@ if(count($diseases)){
 							}
 						}
 				}
-			}			
-		}
-		$omimIds = takeOmimIdsFromEfo($disease_entities);
+			}
+			$omimIds = takeOmimIdsFromEfo($disease_entities);
+		}else
+			fwrite($report, "\nCould not found $disease (disease) in crossbar database.\n\n");
 		unset($disease_entities); # memory rahatlatiliyor.
+
 		if(!count($omimIds)){
 			fwrite($report, "\nThere is no OMIM record related to $disease in crossbar database.\n\n");
 		}else{

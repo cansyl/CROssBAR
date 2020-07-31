@@ -1,9 +1,8 @@
 <?php
-$drugs_str = implode(',',$drugs);
 $acc_of_drugs = array();
 
 #fwrite($report, "\nDRUGs to be searched: $drugs_str\n");
-fwrite($report, "\nQuery terms: $drugs_str (drug)\n");
+#fwrite($report, "\nQuery terms: $drugs_str (drug)\n");
 
 $acc_of_drugs	 		= array(); # drug aramasindan gelen tum proteinlerin toplandigi array
 $acc_of_drugbank		= array(); # drugbank'ten gelen proteinlerin toplandigi array
