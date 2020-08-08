@@ -72,7 +72,9 @@ foreach($search_parameters['search'] as $s){
 					$pathways[] = $name;
 			break;
 			case 'Drug':
-				$drugs[] = $data[0];
+				foreach($data as $d)
+					$drugs[] = $d;
+				#echo $data[0];
 			break;
 			
 			case 'Compound':
@@ -80,7 +82,9 @@ foreach($search_parameters['search'] as $s){
 			break;
 
 			case 'HPO':
-				$hpos[] = $data[0];
+				foreach($data as $d)
+					$hpos[] = $d;
+				#$hpos[] = $data[0];
 			break;
 			
 			case 'Protein':
@@ -93,13 +97,13 @@ foreach($search_parameters['search'] as $s){
 fwrite($report, "\nQuery terms: \n");
 if(count($diseases) or count($kegg_starter_diseases)){
 	if(count($diseases))
-		fwrite($report, implode(',',$diseases)." (disease)\n");
+		fwrite($report, implode(',',$diseases)." (EFO disease)\n");
 	if(count($kegg_starter_diseases))
 		fwrite($report, implode(',',$kegg_starter_diseases)." (kegg disease)\n");
 }
 if(count($pathways) or count($kegg_starter_pathways)){
 	if(count($pathways))
-		fwrite($report, implode(',',$pathways).' (pathway)'."\n");
+		fwrite($report, implode(',',$pathways).' (Reactome pathway)'."\n");
 	if(count($kegg_starter_pathways))
 		fwrite($report, implode(',',$kegg_starter_pathways)." (kegg pathway)\n");
 }

@@ -17,7 +17,7 @@ else
 #$acc_of_pathways = array();
 if(count($pathways)){
 	$pathways_str = implode(',',$pathways);
-	fwrite($report, 'Query terms: '.$pathways_str.' (pathway)'."\n");
+	fwrite($report, 'Query terms: '.$pathways_str.' (Reactome pathway)'."\n");
 	# CROssBAR protein collection to be processed.
 	if( ($prots = fetch_data('/proteins?limit=100&reactome='.urlencode($pathways_str).'&taxId='.$tax_ids_str)) !== false){
 		$prots = (array)$prots;

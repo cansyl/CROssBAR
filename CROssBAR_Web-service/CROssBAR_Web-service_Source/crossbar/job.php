@@ -74,12 +74,13 @@
 		
 	}
 
-	function apply_high(name, file){
+	function apply_high(name, file, type){
 		$.ajax( {
 		  url: "take_id_of_node.php",
 		  data: {
 			name: name,
-			file: file
+			file: file,
+			type: type
 		  },
 		  success: function( data ) {
 			var ele = cy.$('node[id = "'+data+'"]');
@@ -120,17 +121,24 @@
 					if( p == 'Disease' ||  p == 'KEGG Disease' || p == 'Drug' || p == 'KEGG Pathway' || p == 'Pathway' || p == 'HPO' || p == 'Compound'){
 						for (var x in s[p]) {
 							//console.log(s[p][x]);
-							apply_high(s[p][x], <?=$file_name?>);
-							$('#search_parameters').append( '<li class="list-group-item">'+p+': '+s[p][x]+'</li>' );
+							apply_high(s[p][x], <?=$file_name?>, p);
+							var l;
+							if(p == 'Disease')
+								l = 'EFO Disease';
+							else if(p == 'Pathway')
+								l = 'Reactome Pathway';
+							else
+								l = p;
+							$('#search_parameters').append( '<li class="list-group-item">'+l+': '+s[p][x]+'</li>' );
 						}
 					}else{
 						$('#search_parameters').append( '<li class="list-group-item">'+p+': '+s[p]+'</li>' );
 						if(p != 'Protein')
-							apply_high(s[p], <?=$file_name?>);
+							apply_high(s[p], <?=$file_name?>, p);
 						else{
 							var accs = s[p].split(",");
 							for (var a in accs){
-								apply_high(accs[a], <?=$file_name?>);
+								apply_high(accs[a], <?=$file_name?>, p);
 							}
 						}
 					}

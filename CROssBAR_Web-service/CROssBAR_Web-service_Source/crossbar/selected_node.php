@@ -13,7 +13,7 @@ switch($_POST['node']['Node_Type']){
 		$link = 'https://www.uniprot.org/uniprot/'.$_POST['node']['id'];
 	break;
 	case 'Disease':
-		$component = 'disease';
+		$component = 'disease (EFO)';
 		if(substr($_POST['node']['id'],0,3) == 'EFO')
 			$link = 'http://www.ebi.ac.uk/efo/'.implode('_', explode(':',$_POST['node']['id']) );
 		else if(substr($_POST['node']['id'],0,8) == 'Orphanet')
@@ -29,7 +29,7 @@ switch($_POST['node']['Node_Type']){
 		$link = 'https://www.kegg.jp/dbget-bin/www_bget?'.$_POST['node']['id'];
 	break;
 	case 'Pathway':
-		$component = 'pathway';
+		$component = 'pathway (Reactome)';
 		$link = 'https://reactome.org/content/detail/'.$_POST['node']['id'];
 	break;
 	case 'kegg_Pathway':

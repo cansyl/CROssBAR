@@ -31,7 +31,7 @@ function takeOmimIdsFromEfo($diseases){
 
 if(count($diseases)){
 	#fwrite($report, "\nOMIM DISEASE(s) to be searched: $diseases_str\n\n");
-	fwrite($report, "\nQuery terms: $diseases_str (disease)\n");
+	fwrite($report, "\nQuery terms: $diseases_str (EFO disease)\n");
 	foreach($diseases as $disease){
 		$omimIds = array();
 		$oboof_starter = '';
