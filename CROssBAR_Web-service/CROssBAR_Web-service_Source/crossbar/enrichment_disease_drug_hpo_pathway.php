@@ -295,20 +295,28 @@
 		if(count($hpo_res)){
 			$omimsofhpo = explode('|',$hpo_res[0]['refs']);
 			foreach($omimsofhpo as $omimofhpo){
-				foreach($disease_nodes as $did => $dis){
-					$orpha_relation = false;
-					$omim_relation = false;
-					if(substr($omimofhpo,0,5) == 'ORPHA'){
-						$tmp_orpha = explode(':',$omimofhpo);
-						if(isset($disease_nodes['Orphanet:'.$tmp_orpha[1]]))
-							$orpha_relation = true;
-					}else{
-						$omim_relation = array_search($omimofhpo, $dis['omims']);
+				$orpha_relation = false;
+				$omim_relation = false;
+				$related_disease = '';
+				if(substr($omimofhpo,0,5) == 'ORPHA'){
+					$tmp_orpha = explode(':',$omimofhpo);
+					if(isset($disease_nodes['Orphanet:'.$tmp_orpha[1]])){
+						$orpha_relation = true;
+						$related_disease = 'Orphanet:'.$tmp_orpha[1];
 					}
-					if($orpha_relation !== false or $omim_relation !== false ){
-						$file['edges'][] = array('data'=>array('source'=>$hid,'target'=>$did,'Edge_Type'=>'hpodis','label'=>'associated w/'));
+				}else{
+					foreach($disease_nodes as $did => $dis){
+						$omim_relation = array_search($omimofhpo, $dis['omims']);
+						if($omim_relation !== false){
+							$related_disease = $did;
+							break;
+						}
 					}
 				}
+				if($orpha_relation !== false or $omim_relation !== false ){
+					$file['edges'][] = array('data'=>array('source'=>$hid,'target'=>$related_disease,'Edge_Type'=>'hpodis','label'=>'associated w/'));
+				}
+
 			}
 		}
 	}
