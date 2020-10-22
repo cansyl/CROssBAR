@@ -1,6 +1,6 @@
 # CROssBAR: Comprehensive Resource of Biomedical Relations with Deep Learning Applications and Knowledge Graph Representations
 
-The purpose of the CROssBAR project is to address the limitations related to data diversity and connectivity in biological data resources, which hamper their real-world applications to biomedical problems. Within CROssBAR, we developed a comprehensive computational resource by linking various biomedical resources, generating relation predictions using machine/deep learning, and developing information rich knowledge graphs that incorporate available and predicted biomedical relationships with the aim of providing aid to biomedical researchers to further understand disease mechanisms and to discover/develop new drugs.
+The purpose of the CROssBAR project is to address the limitations related to data diversity and connectivity in biological data resources, which hamper their real-world applications to biomedical problems. Within CROssBAR, we developed a comprehensive computational resource by linking various biomedical resources, generating relation predictions using machine/deep learning, and developing information rich knowledge graphs that incorporate available and predicted biomedical relationships with the aim of providing aid to biomedical researchers to further understand disease mechanisms and to discover/develop new drugs. Detailed information can be obtained from [CROssBAR pre-print](https://www.biorxiv.org/content/10.1101/2020.09.14.296889v1).
 
 ## About the Project
 
@@ -100,6 +100,9 @@ The large-scale KG (987 nodes and 3639 edges) and the simplified KG (178 nodes a
 For more information about the COVID-19 knowledge graphs, please refer to our project paper or visit [CROssBAR COVID-19 KG folder](https://github.com/cansyl/CROssBAR/tree/master/COVID-19_KGs). For information about the comparative _in vitro_ cell-based analysis together with the datasets please visit [CROssBAR wet-lab analysis folder](https://github.com/cansyl/CROssBAR/tree/master/In_vitro_assays).
 
 
+If you use CROssBAR please consider citing:
+
+Dogan, T., Atas, H., Joshi, V., Atakan, A., Rifaioglu, A.S., Nalbat, E., Nightingale, A., Saidi, R., Volynkin, V., Zellner, H. Cetin-Atalay, R., Martin, M. J., Cetin-Atalay, R., & Atalay, V. (2020). CROssBAR: Comprehensive Resource of Biomedical Relations with Deep Learning Applications and Knowledge Graph Representations. *bioRxiv*, 2020.09.14.296889.
 
 ## License
 
