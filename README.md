@@ -103,6 +103,7 @@ For more information about the COVID-19 knowledge graphs, please refer to our pr
 <br>
 If you use CROssBAR please consider citing:
 <br>
+
 Dogan, T., Atas, H., Joshi, V., Atakan, A., Rifaioglu, A.S., Nalbat, E., Nightingale, A., Saidi, R., Volynkin, V., Zellner, H. Cetin-Atalay, R., Martin, M. J., Cetin-Atalay, R., & Atalay, V. (2020). CROssBAR: Comprehensive Resource of Biomedical Relations with Deep Learning Applications and Knowledge Graph Representations. *bioRxiv*, 2020.09.14.296889.
 
 ## License
