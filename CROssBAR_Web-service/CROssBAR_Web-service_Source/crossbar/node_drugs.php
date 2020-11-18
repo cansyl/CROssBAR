@@ -38,6 +38,11 @@ if(isset($file['tonext']['kegg_drugs'])){
 	$kegg_drugs = $file['tonext']['kegg_drugs'];
 	$drugbankids = array();
 	foreach($kegg_drugs as $id => $name){
+
+		if(isset($starter_searchs['drugs']))
+			if(isset($starter_searchs['drugs'][$id]))
+				continue;
+
 		if(isset($drug_nodes[$id])){
 			# eger kegg'den cektimiz drug network'de bulunduysa kegg_drugs'a aktarip silelim,
 			# kegg'den gelen druglar her turlu network'e eklenecek
