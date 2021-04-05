@@ -92,7 +92,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 **The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3639 edges (i.e., various types of relations).**
 
-![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/8128032/85949366-f9f70000-b95e-11ea-9db1-876de2c577d7.png)
+![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/13165170/113632621-28cf9e80-9674-11eb-8c83-f278b630dc36.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Simplified COVID-19 KG
@@ -103,7 +103,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 **The simplified COVID-19 KG includes a total of 178 nodes and 298 edges.**
 
-![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/13165170/88110249-8f7b5d80-cbb4-11ea-827a-bceb3162be86.png)
+![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/13165170/113632560-0f2e5700-9674-11eb-9631-cef4676b4d8e.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Node Filtering via Overrepresentation Analysis
