@@ -10,15 +10,15 @@ Below, we describe the methodology followed for the generation of CROssBAR COVID
 Generation of the large-scale COVID-19 graph started with acquiring the related EFO disease term named: "COVID-19" (id: MONDO:0100096). We also incorporated the disease term for "Severe acute respiratory syndrome" (id: EFO:0000694) (the previous SARS) into the graph since SARS is better annotated compared to COVID-19. The full-scale COVID-19 KG construction is accomplished as described below:
 
 **1. COVID-19 related genes/proteins and PPIs:**
-- COVID-19 related genes/proteins and their interactions were retrieved from the IntAct database’s COVID-19 dataset, which contain 1,172 gene/protein and metabolite nodes from various organisms and 2,214 edges. 
+- COVID-19 related genes/proteins and their interactions were retrieved from the IntAct database’s COVID-19 dataset, which contain 3,119 gene/protein and metabolite nodes from various organisms and 7,706 edges. 
 - Nodes were filtered so that only reviewed protein nodes from human, SARS-CoV, and SARS-CoV-2 (exceptional unreviewed protein entry, ORF10 (accession: A0A663DJA2)) organisms were included.
 - Edges were filtered based on ppi confidence score so that;
   -	edges between host proteins and SARS-CoV and/or SARS-CoV-2 proteins with confidence score less than 0.35, and 
   -	edges between host proteins in the KG (i.e., neighboring proteins) with confidence score less than 0.6 were discarded.
 - Disconnected components made up of host proteins formed due to the interaction-based edge filtering were removed. 
 - Orthology relations between SARS-CoV and SARS-CoV-2 genes/proteins were annotated with "is ortholog of"  edge type. 
-- The subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes with "is subunit of" edge label. 
-- The finalized number of genes/proteins is 539 (475 host genes/proteins, and 33 SARS-CoV and 31 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1284.
+- Protein interactions of the subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes. 
+- The finalized number of genes/proteins is 778 (746 host genes/proteins, and 15 SARS-CoV and 17 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1,674.
 
 ![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/86535421-eb719100-bee8-11ea-8378-a9d2b7bb7a4a.png)
 
@@ -29,7 +29,6 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - They were retrieved from DrugBank database, v5.1.6 release. 
 - To incorporate only the most relevant drug-target interactions, a drug overrepresentation analysis was applied in terms of the target genes/proteins in the KG using hypergeometric distribution, as described at the end. 
 - Drugs in the curated COVID-19 specific drug list of DrugBank were connected to the COVID-19 disease node and related target proteins in the KG -if present-.
-- Drugs from curated results in new and critical SARS-CoV-2 related publications such as Gordon et al. [Gordon-2020] were also incorporated by mapping to corresponding target proteins.
 - Edge color: green
 
 **2b. Compound-target interactions from experimentally measured bioactivities**
