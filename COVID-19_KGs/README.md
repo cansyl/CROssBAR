@@ -37,7 +37,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
   -	Only compounds with enrichment scores greater than 1 and p-value less than 0.05 were considered. 
   -	They were clustered based on Tanimoto coefficient based molecular similarities with a threshold of 0.5.
   -	Top 3 overrepresented compound nodes, that are in different clusters, were selected for each target protein and incorporated to the KG. 
-- Selected compound - host target protein interactions from the curated ChEMBL SARS-CoV-2 dataset and experimental results in the study of Gordon et al. [Gordon-2020] were also incorporated. 
+- Selected compound - host target protein interactions and SARS-CoV-2 organism assay based drug/compound bioactivities  from the curated ChEMBL SARS-CoV-2 dataset were also incorporated. 
 - Edge color: blue
 
 **2c. Computationally predicted drug/compound-target interactions** 
@@ -48,10 +48,10 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 <br /> <br /> 
 - Drug and compound nodes were merged with respect to drug-compound entry correspondences in DrugBank and ChEMBL databases. This way, some of the drug nodes also contain experimental bioassay based relations (i.e., blue colored edges) and computationally predicted relations (i.e., red colored edges). 
 - Drug-disease relationships based on reported drug indications obtained from the KEGG resource were also incorporated into the KG. 
-- The total number of drugs (nodes) is 108 and the total number of drug interactions (edges) is 279.
-- The total number of small-molecule compounds is 233 and the total number of compound interactions (edges) is 517. 
-- Out of all drug/compound-target interaction edges, 135 correspond to drug development procedures, 335 to experimental bioassays and 326 to deep learning based predictions.
-- Drug node shape: white hexagon with green border
+- The total number of drugs (nodes) is 158 and the total number of drug interactions (edges) is 422 (including 76 drug-disease, 318 drug-protein, 28 drug-organism edges).
+- The total number of small-molecule compounds is 167 and the total number of compound interactions (edges) is 664 (including 660 compound-protein, 4 compound-organism edges). 
+- Out of all drug/compound-target interaction edges, 120 correspond to drug development procedures, 382 to experimental bioassays (including organism assay) and 508 to deep learning based predictions.
+- Drug node shape: white hexagon with green border for small molecules, with blue border for biotechs (proteins/peptides), with turquoise border for vaccines, plasmas and vectors
 - Compound node shape: white hexagon with fuchsia border
 
 ![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/86535429-f6c4bc80-bee8-11ea-8996-f6e165c09604.png)
@@ -61,7 +61,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Signaling and metabolic pathway information was taken from Reactome (via CROssBAR database) and KEGG pathways data sources. 
 - The most relevant pathways were determined by the overrepresentation analysis and mapped to the related genes/proteins in the KG. 
 - Pathway-disease relations were also obtained from the KEGG database and incorporated into the KG. 
-- The finalized number of pathways in the KG is 57 (23 for KEGG and 34 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 718 (244 for KEGG and 474 for Reactome).
+- The finalized number of pathways in the KG is 100 (32 for KEGG and 68 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 1,333 (557 for KEGG and 776 for Reactome).
 
 ![COVID19_final_network_crossbar_layout_pathways](https://user-images.githubusercontent.com/8128032/86535443-0f34d700-bee9-11ea-9470-fb672289835d.png)
 
