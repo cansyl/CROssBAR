@@ -11,6 +11,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 **1. COVID-19 related genes/proteins and PPIs:**
 - COVID-19 related genes/proteins and their interactions were retrieved from the IntAct database’s COVID-19 dataset, which contain 3,119 gene/protein and metabolite nodes from various organisms and 7,706 edges. 
+- PPI data of COVID-19 associated proteins in the UniProt COVID-19 portal were also retrieved from IntAct database and concatenated to the IntAct’s COVID-19 dataset.
 - Nodes were filtered so that only reviewed protein nodes from human, SARS-CoV, and SARS-CoV-2 (exceptional unreviewed protein entry, ORF10 (accession: A0A663DJA2)) organisms were included.
 - Edges were filtered based on ppi confidence score so that;
   -	edges between host proteins and SARS-CoV and/or SARS-CoV-2 proteins with confidence score less than 0.35, and 
@@ -18,6 +19,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Disconnected components made up of host proteins formed due to the interaction-based edge filtering were removed. 
 - Orthology relations between SARS-CoV and SARS-CoV-2 genes/proteins were annotated with "is ortholog of"  edge type. 
 - Protein interactions of the subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes. 
+- SARS-CoV and SARS-CoV-2 organism nodes were also placed in the graph and connected to the corresponding proteins.
 - The finalized number of genes/proteins is 778 (746 host genes/proteins, and 15 SARS-CoV and 17 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1,674.
 
 ![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/86535421-eb719100-bee8-11ea-8378-a9d2b7bb7a4a.png)
@@ -72,7 +74,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
   -	From the score-ranked HPO term list, the terms that are not in a close parent-child relationship were selected and mapped to corresponding genes/proteins in the KG. 
 - HPO also has a curated list of SARS related phenotype terms. These terms were also added into the network and mapped to "COVID-19" and "Severe acute respiratory syndrome" disease nodes. 
 - Disease-HPO term relations were also integrated into the KG using the disease association information provided in HPO resource. 
-- The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
+- The finalized number of phenotype terms in the KG (nodes) is 43 and the number of HPO term - gene/protein associations (edges) is 2,427. 
 
 ![COVID19_final_network_crossbar_layout_phenotypes](https://user-images.githubusercontent.com/8128032/86535453-1cea5c80-bee9-11ea-8592-beb70bec1430.png)
 
@@ -81,26 +83,26 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Disease terms were collected from the CROssBAR database resources: EFO disease collection (mainly including OMIM and Orphanet disease entries) and KEGG diseases database. 
 - The linkage of proteins and EFO terms was achieved through OMIM ids. 
 - The most relevant disease terms were selected via the overrepresentation analysis. 
-- The finalized number of disease terms in the KG is 23 (10 for KEGG and 13 for EFO) and the number of disease - gene/protein associations (edges) is 52 (31 for KEGG and 21 for EFO). 
+- The finalized number of disease terms in the KG is 41 (19 for KEGG and 22 for EFO) and the number of disease - gene/protein associations (edges) is 120 (67 for KEGG and 53 for EFO). 
   
 ![COVID19_final_network_crossbar_layout_diseases_v2](https://user-images.githubusercontent.com/8128032/86535460-2bd10f00-bee9-11ea-86b2-7118bdedfcbb.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-- Large-scale COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be intractivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19.php).
+- Large-scale COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be interactivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19.php).
 
-**The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3639 edges (i.e., various types of relations).**
+**The finalized  large-scale COVID-19 KG includes 1,289 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes, and organisms) and 6,743 edges (i.e., various types of relations).**
 
 ![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/13165170/113632621-28cf9e80-9674-11eb-8c83-f278b630dc36.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Simplified COVID-19 KG
 - For the construction of the simplified COVID-19 KG, the starting point was the COVID-19 associated proteins in the UniProt COVID-19 portal (https://covid-19.uniprot.org/), instead of the IntAct SARS-CoV-2 interactions dataset, which was used as the base gene/protein set for the large-scale KG. 
-- The remaining steps of building the graph were mainly similar except that, additional nodes representing the organisms: human, SARS-CoV and SARS-CoV-2 were placed in the graph and connected to the corresponding proteins. 
+- The remaining steps of building the graph were mainly similar.
 - The simplified version is not just a subset of the large-scale KG since the starting point of gene/protein collection were different in two KGs, resulting in graphs with slightly different content.
 - Simplified COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be intractivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19_simplified.php).
 
-**The simplified COVID-19 KG includes a total of 178 nodes and 298 edges.**
+**The simplified COVID-19 KG includes a total of 435 nodes and 1,061 edges.**
 
 ![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/13165170/113632560-0f2e5700-9674-11eb-9631-cef4676b4d8e.png)
 
@@ -124,8 +126,6 @@ To load the large-scale and simplified COVID-19 KGs on Cytoscape:
 -	You may open a new session on CytoScape and import the network files ("CROssBAR_COVID-19_Large-Scale_KG.xgmml" and "CROssBAR_COVID-19_Simplified_KG.xgmml") as "File -> Import -> Network from File" option.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## References
-Gordon, D. E., Jang, G. M., Bouhaddou, M., Xu, J., Obernier, K., White, K. M., ... & Tummino, T. A. (2020). A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature, 1-13.
-
 Rifaioglu, A., Sinoplu, E., Atalay, V., Martin, M., Cetin-Atalay, R., & Dogan, T. (2020). DEEPScreen: High Performance Drug-Target Interaction Prediction with Convolutional Neural Networks Using 2-D Structural Compound Representations. Chemical Science, 11 (9), 2531-2557.
 
 Rifaioglu, A., Cetin-Atalay, R.,  Kahraman, D.C., Dogan, T., Martin, M., Atalay, V. (2020). MDeePred: Novel Multi-Channel Protein Featurization for Deep Learning based Binding Affinity Prediction in Drug Discovery, Bioinformatics [currently under peer review].
