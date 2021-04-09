@@ -93,6 +93,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 **The finalized  large-scale COVID-19 KG includes 1,289 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes, and organisms) and 6,743 edges (i.e., various types of relations).**
 
+**(The earlier version of the large-scale COVID-19 KG -constructed in June 2020- includes 987 nodes and 3,576 edges.)**
+
 ![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/13165170/113632621-28cf9e80-9674-11eb-8c83-f278b630dc36.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -103,6 +105,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Simplified COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be intractivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19_simplified.php).
 
 **The simplified COVID-19 KG includes a total of 435 nodes and 1,061 edges.**
+
+**(The earlier version of the simplified COVID-19 KG -constructed in June 2020- includes 178 nodes and 241 edges.)**
 
 ![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/13165170/113632560-0f2e5700-9674-11eb-9631-cef4676b4d8e.png)
 
@@ -122,8 +126,11 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Loading COVID-19 KGs on Cytoscape
 To load the large-scale and simplified COVID-19 KGs on Cytoscape:
--	You may directly open the session files (“CROssBAR_COVID-19_Large-Scale_KG.cys” and “CROssBAR_COVID-19_Simplified_KG.cys”) via CytoScape application or (if it does not work),
--	You may open a new session on CytoScape and import the network files ("CROssBAR_COVID-19_Large-Scale_KG.xgmml" and "CROssBAR_COVID-19_Simplified_KG.xgmml") as "File -> Import -> Network from File" option.
+-	You may directly open the session files (“CROssBAR_COVID-19_LargeScale_KG_v2_Cytoscape_files.zip/CROssBAR_COVID-19_Large-Scale_KG_v1_v2.cys” and “CROssBAR_COVID-19_Simplified_KG_v2.1_Cytoscape_files.zip/CROssBAR_COVID-19_Simplified_KG_v1_v2.1.cys”) via CytoScape application or (if it does not work),
+-	You may open a new session on CytoScape and import the network files ("CROssBAR_COVID-19_LargeScale_KG_v2_Cytoscape_files.zip/CROssBAR_COVID-19_Large-Scale_KG_v2.xgmml" and "CROssBAR_COVID-19_Simplified_KG_v2.1_Cytoscape_files.zip/CROssBAR_COVID-19_Simplified_KG_v2.1.xgmml") as "File -> Import -> Network from File" option.
+
+(The cytoscape session files involve the earlier versions of the large-scale and simplified COVID-19 KGs -constructed in June 2020-, as well.)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## References
 Rifaioglu, A., Sinoplu, E., Atalay, V., Martin, M., Cetin-Atalay, R., & Dogan, T. (2020). DEEPScreen: High Performance Drug-Target Interaction Prediction with Convolutional Neural Networks Using 2-D Structural Compound Representations. Chemical Science, 11 (9), 2531-2557.
