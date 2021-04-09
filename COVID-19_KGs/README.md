@@ -89,7 +89,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-- Large-scale COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be interactivly displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19.php).
+- Large-scale COVID-19 graph can be loaded to the local version of Cytoscape using the files provided (please see below for more details). The graph can also be interactively displayed via the CROssBAR web-service using this [link](https://crossbar.kansil.org/covid-19.php).
 
 **The finalized  large-scale COVID-19 KG includes 1,289 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes, and organisms) and 6,743 edges (i.e., various types of relations).**
 
