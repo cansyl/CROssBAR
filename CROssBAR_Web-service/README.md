@@ -2,6 +2,8 @@
 
 Online CROssBAR web-service is developed to make the integrated biomedical data available to the public in an easily interpretable, interactive way via a graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly. Here, we provide 2 simple use-cases for the CROssBAR web-service:
 
+<img src="https://user-images.githubusercontent.com/13165170/114306284-24780b00-9ae4-11eb-839d-2a0f7fc3021c.png" width="600"> 
+
 ## Web-service Use-case 1
 
 To provide an example about one of the many possible uses of the CROssBAR system, we explore the relation between a drug (trifluoperazine) and a disease (gastric cancer), to make a very quick and rough evaluation on the potential repurposing of this drug towards the disease of interest. Trifluoperazine is an approved antipsychotic agent mainly used in the treatment of schizophrenia. To construct the corresponding knowledge graph, we queried the CROssBAR-WS with this drug and disease entries and selected the number of nodes to be incorporated to the graph (from each biomedical component) as 20. The resulting graph is shown below.
