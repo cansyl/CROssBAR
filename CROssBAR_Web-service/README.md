@@ -4,7 +4,7 @@ Online CROssBAR web-service is developed to make the integrated biomedical data 
 
 <img src="https://user-images.githubusercontent.com/13165170/114306284-24780b00-9ae4-11eb-839d-2a0f7fc3021c.png" width="900"> 
 
-## Web-service Use-case 1
+## Web-service Data Exploration Example 1
 
 To provide an example about one of the many possible uses of the CROssBAR system, we explore the relation between a drug (trifluoperazine) and a disease (gastric cancer), to make a very quick and rough evaluation on the potential repurposing of this drug towards the disease of interest. Trifluoperazine is an approved antipsychotic agent mainly used in the treatment of schizophrenia. To construct the corresponding knowledge graph, we queried the CROssBAR-WS with this drug and disease entries and selected the number of nodes to be incorporated to the graph (from each biomedical component) as 20. The resulting graph is shown below.
 
@@ -17,7 +17,7 @@ Trifluoperazine exerts its antipsychotic effect with the blockage of dopamine D2
 Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 1 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by clicking "Example Search: #1" and starting the construction of knowledge graph.
 
 
-## Web-service Use-case 2
+## Web-service Data Exploration Example 2
 
 A drug search on CROssBAR can also be utilized towards identifying new drug-like compounds with similar target-based bioactivities. This kind of exploration can be useful for medicinal chemists and other researchers working on drug discovery. In this example, we query [Sorafenib](https://www.drugbank.ca/drugs/DB00398) on CROssBAR-WS, which is a drug approved for the treatment of primary kidney and primary  liver cancers, to construct the knowledge graph that includes a relevant set of biomedical data. An interesting observation on the resulting KG is the compound node: [CHEMBL598626](https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL598626/), which contain high number of shared targets with Sorafenib (8 out 10 of the approved target proteins of Sorafenib are also the targets of this compound) indicated by the bioassay-based interactions (blue colored edges on the graph). High overlap between these targets indicate the potential of this compound to be an alternative for Sorafenib. It is also important to note that this result could not be obtained with a conventional molecular similarity search, as Sorafenib and CHEMBL598626 have highly dissimilar structures (a simple pairwise molecular similarity search with the minimum similarity threshold -%40- on the ChEMBL database could not detect any similarity between the two).
 
