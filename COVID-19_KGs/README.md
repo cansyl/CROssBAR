@@ -137,5 +137,5 @@ Rifaioglu, A., Sinoplu, E., Atalay, V., Martin, M., Cetin-Atalay, R., & Dogan, T
 
 Rifaioglu, A., Cetin-Atalay, R.,  Kahraman, D.C., Dogan, T., Martin, M., Atalay, V. (2020). MDeePred: Novel Multi-Channel Protein Featurization for Deep Learning based Binding Affinity Prediction in Drug Discovery, _Bioinformatics_, btaa858 (doi:10.1093/bioinformatics/btaa858).
 
-Rivals, I., Personnaz, L., Taing, L., & Potier, M. C. (2007). Enrichment or depletion of a GO category within a class of genes: which test?. Bioinformatics, 23(4), 401-407.
+Rivals, I., Personnaz, L., Taing, L., & Potier, M. C. (2007). Enrichment or depletion of a GO category within a class of genes: which test?. _Bioinformatics, 23_(4), 401-407.
 
