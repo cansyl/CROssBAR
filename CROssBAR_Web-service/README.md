@@ -1,6 +1,6 @@
 # CROssBAR Web-service
 
-Online CROssBAR web-service is developed to make the integrated biomedical data available to the public in an easily interpretable, interactive way via a graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly. Here, we provide 2 simple use-cases for the CROssBAR web-service:
+Online CROssBAR web-service is developed to make the integrated biomedical data available to the public in an easily interpretable, interactive way via a graphical user interface. Knowledge graphs are presented visually on web-browsers as Cytoscape networks. Users can make searches with CROssBAR components by simply typing the names or ids of the query terms individually or in combination, to obtain relevant sub-graphs, constructed on-the-fly. Here, we provide 2 simple data exploration examples for the CROssBAR web-service:
 
 <img src="https://user-images.githubusercontent.com/13165170/114306284-24780b00-9ae4-11eb-839d-2a0f7fc3021c.png" width="900"> 
 
@@ -14,7 +14,7 @@ Trifluoperazine exerts its antipsychotic effect with the blockage of dopamine D2
 
 <img src="https://user-images.githubusercontent.com/13165170/88282490-58ab6180-ccf2-11ea-8668-64d6bec14b9b.png" width="600"> 
 
-Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 1 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by clicking "Example Search: #1" and starting the construction of knowledge graph.
+Both the json formatted network file and the csv formatted core-protein-centric relation table of example 1 can be found above. It is also possible to interactively display this KG on the [CROssBAR web-service](https://crossbar.kansil.org) by clicking "Example Search: #1" and starting the construction of knowledge graph.
 
 
 ## Web-service Data Exploration Example 2
@@ -23,6 +23,6 @@ A drug search on CROssBAR can also be utilized towards identifying new drug-like
 
 <img src="https://user-images.githubusercontent.com/13165170/88481562-dbd3ee00-cf64-11ea-8b2c-83feb359446c.png" width="600"> 
 
-Both the json formatted network file and the csv formatted core-protein-centric relation table of use-case 2 can be found above.
+Both the json formatted network file and the csv formatted core-protein-centric relation table of example 2 can be found above.
 
-More information about these use-cases can be found in our project paper. Information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.php. The entire CROssBAR web-service including the web-site and the underlying API queries can be found in the folder entitled: "CROssBAR_Web-service_Source/crossbar" above.
+More information about these data exploration examples can be found in our project paper. Information regarding the CROssBAR web-service and its user interface can be found at: https://crossbar.kansil.org/tutorial.php. The entire CROssBAR web-service including the web-site and the underlying API queries can be found in the folder entitled: "CROssBAR_Web-service_Source/crossbar" above.
