@@ -1,0 +1,3375 @@
+[ {
+    "selector" : "node",
+    "css" : {
+      "height" : 25.0,
+      "background-color" : "rgb(137,208,245)",
+      "color" : "rgb(0,0,0)",
+      "shape" : "roundrectangle",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "font-size" : 10,
+      "font-weight" : "normal",
+      "border-color" : "rgb(204,204,204)",
+      "width" : 25.0,
+      "border-opacity" : 1.0,
+      "border-width" : 0.0,
+      "background-opacity" : 1.0,
+      "content" : "data(Node_Name)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "border-color" : "rgb(0,0,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'organism']",
+    "css" : {
+      "border-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vector']",
+    "css" : {
+      "border-color" : "rgb(0,153,204)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - plasma']",
+    "css" : {
+      "border-color" : "rgb(0,153,204)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vaccine']",
+    "css" : {
+      "border-color" : "rgb(0,153,204)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "border-color" : "rgb(0,153,51)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "border-color" : "rgb(204,0,204)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg disease']",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'organism']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'efo disease']",
+    "css" : {
+      "background-color" : "rgb(204,0,0)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'hpo']",
+    "css" : {
+      "background-color" : "rgb(102,0,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vector']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - plasma']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vaccine']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg pathway']",
+    "css" : {
+      "background-color" : "rgb(0,102,153)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "background-color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'reactome pathway']",
+    "css" : {
+      "background-color" : "rgb(0,204,255)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'protein']",
+    "css" : {
+      "background-color" : "rgb(255,83,3)"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'organism']",
+    "css" : {
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vector']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - plasma']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vaccine']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg disease']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'organism']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'efo disease']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'hpo']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vector']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'small molecule drug']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - plasma']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug - vaccine']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'compound']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'kegg pathway']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'biotech drug']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'reactome pathway']",
+    "css" : {
+      "shape" : "diamond"
+    }
+  }, {
+    "selector" : "node[Node_Type = 'protein']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[ id = '1344' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1345' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1346' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '578' ]",
+    "css" : {
+      "height" : 100.0,
+      "font-size" : 36,
+      "width" : 100.0
+    }
+  }, {
+    "selector" : "node[ id = '1347' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '228' ]",
+    "css" : {
+      "height" : 60.0,
+      "width" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '1348' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '229' ]",
+    "css" : {
+      "height" : 60.0,
+      "width" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '1349' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1350' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '231' ]",
+    "css" : {
+      "height" : 75.0,
+      "width" : 75.0
+    }
+  }, {
+    "selector" : "node[ id = '1351' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1352' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1353' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1354' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1355' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1356' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1357' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1326' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1358' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1327' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1359' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1328' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1329' ]",
+    "css" : {
+      "height" : 75.0,
+      "border-width" : 10.0,
+      "font-size" : 32,
+      "width" : 75.0
+    }
+  }, {
+    "selector" : "node[ id = '1330' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1331' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1332' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1333' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1334' ]",
+    "css" : {
+      "height" : 75.0,
+      "border-width" : 10.0,
+      "font-size" : 32,
+      "width" : 75.0
+    }
+  }, {
+    "selector" : "node[ id = '1335' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1336' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1337' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1338' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '219' ]",
+    "css" : {
+      "height" : 60.0,
+      "width" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '1339' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1340' ]",
+    "css" : {
+      "border-color" : "rgb(0,102,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '1341' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,0)",
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[ id = '222' ]",
+    "css" : {
+      "height" : 60.0,
+      "width" : 60.0
+    }
+  }, {
+    "selector" : "node[ id = '1342' ]",
+    "css" : {
+      "height" : 75.0,
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0,
+      "border-color" : "rgb(0,102,0)",
+      "width" : 75.0
+    }
+  }, {
+    "selector" : "node[ id = '1343' ]",
+    "css" : {
+      "height" : 75.0,
+      "background-color" : "rgb(255,204,51)",
+      "border-width" : 10.0,
+      "border-color" : "rgb(204,0,0)",
+      "width" : 75.0
+    }
+  }, {
+    "selector" : "node[ id = '8256' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8288' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8320' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8352' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8416' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8448' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8480' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8512' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8544' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8576' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8640' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8832' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8928' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9024' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8257' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8321' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8353' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8385' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8417' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8449' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8481' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8513' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8545' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8577' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8641' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9025' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8129' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8194' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8290' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8322' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8354' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8386' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8418' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8450' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8482' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8514' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8546' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8642' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8898' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9026' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8195' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8227' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8259' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8291' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8355' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8419' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8451' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8483' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8515' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8547' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8643' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8707' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8899' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9027' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8131' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8163' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8228' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8260' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8292' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8324' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8356' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8388' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8420' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8452' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8516' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8548' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8644' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8676' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8708' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9028' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8164' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8197' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8229' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8293' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8421' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8485' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8517' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8549' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8645' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9029' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8230' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8262' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8294' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8358' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8390' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8422' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8454' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8486' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8518' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8550' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9030' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8166' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8231' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8295' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8327' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8391' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8423' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8455' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8487' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8519' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8551' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8711' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8935' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8999' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9031' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8200' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8296' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8328' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8360' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8392' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8424' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8456' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8488' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8520' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8552' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8712' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8840' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8872' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8168' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8201' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8233' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8265' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8329' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8361' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8393' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8425' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8457' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8489' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8521' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8553' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8617' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8713' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8809' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8234' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8330' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8394' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8458' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8490' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8554' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8650' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9002' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8170' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8203' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8299' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8331' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8363' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8395' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8427' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8459' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8555' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8619' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8651' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8907' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9003' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8268' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8300' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8332' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8364' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8396' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8428' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8460' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8492' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8556' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8620' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9004' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8172' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8205' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8301' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8429' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8461' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8493' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8525' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8557' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8653' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8749' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8173' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8238' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8270' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8302' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8334' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8366' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8398' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8462' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8494' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8526' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8558' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8654' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9006' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9038' ]",
+    "css" : {
+      "height" : 55.0,
+      "width" : 55.0
+    }
+  }, {
+    "selector" : "node[ id = '8207' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8239' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8271' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8303' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8367' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8399' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8431' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8463' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8495' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8527' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8559' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8655' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9039' ]",
+    "css" : {
+      "height" : 45.0,
+      "width" : 45.0
+    }
+  }, {
+    "selector" : "node[ id = '8175' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8208' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8272' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8304' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8336' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8400' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8432' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8464' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8528' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8560' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9040' ]",
+    "css" : {
+      "height" : 50.0,
+      "width" : 50.0
+    }
+  }, {
+    "selector" : "node[ id = '8144' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8209' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8241' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8273' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8305' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8337' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8369' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8433' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8465' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8497' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8529' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8561' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8657' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9009' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8177' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8274' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8306' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8370' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8402' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8434' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8466' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8498' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8530' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8562' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8658' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8243' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8275' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8307' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8339' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8371' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8403' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8435' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8467' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8499' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8531' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8563' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8595' ]",
+    "css" : {
+      "height" : 65.0,
+      "width" : 65.0
+    }
+  }, {
+    "selector" : "node[ id = '8691' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8212' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8308' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8340' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8372' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8436' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8468' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8500' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8532' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8564' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8628' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8180' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8213' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8309' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8405' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8437' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8469' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8501' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8533' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8565' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8629' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8149' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8342' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8374' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8406' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8438' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8470' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8502' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8534' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8566' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8630' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8758' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8822' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8886' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9014' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8182' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8215' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8279' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8311' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8343' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8375' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8407' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8439' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8471' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8503' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8535' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8567' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8663' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8887' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9015' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8151' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8216' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8312' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8344' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8376' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8408' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8440' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8472' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8504' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8536' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8568' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8664' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9016' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8184' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8217' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8249' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8313' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8345' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8377' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8409' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8441' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8473' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8505' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8537' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8569' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8633' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9017' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8185' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8346' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8378' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8410' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8442' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8474' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8506' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8538' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8570' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8698' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8922' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9018' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9114' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8219' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8315' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8347' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8379' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8411' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8443' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8475' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8539' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8571' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8635' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8731' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9019' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8155' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8187' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8252' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8284' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8316' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8348' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8380' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8444' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8476' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8508' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8540' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8572' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8700' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8732' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(0,204,51)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '8924' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9020' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8156' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8188' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8221' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8285' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8317' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8349' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8381' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8413' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8445' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8477' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8509' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8541' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8573' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8733' ]",
+    "css" : {
+      "height" : 20.0,
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0,
+      "border-color" : "rgb(255,0,0)",
+      "width" : 20.0
+    }
+  }, {
+    "selector" : "node[ id = '9021' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8222' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8254' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8286' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8350' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8382' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8414' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8446' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8478' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8510' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8542' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8574' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8734' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9022' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8255' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8319' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8351' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8383' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8415' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8447' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8479' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8511' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8543' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8575' ]",
+    "css" : {
+      "border-color" : "rgb(204,0,204)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8703' ]",
+    "css" : {
+      "border-color" : "rgb(0,204,51)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '8927' ]",
+    "css" : {
+      "border-color" : "rgb(255,0,0)",
+      "background-color" : "rgb(255,196,74)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "node[ id = '9023' ]",
+    "css" : {
+      "border-color" : "rgb(0,153,51)",
+      "border-width" : 5.0
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "line-style" : "solid",
+	  "line-color" : "rgb(132,132,132)",
+      "color" : "rgb(0,0,0)",
+      "source-arrow-color" : "rgb(0,0,0)",
+      "target-arrow-color" : "rgb(0,0,0)",
+      "source-arrow-shape" : "none",
+      "target-arrow-shape" : "none",
+      "width" : 0.5,
+	  "font-weight" : "normal",
+      "text-opacity" : 1.0,
+	  "content" : "",
+	  "curve-style": "unbundled-bezier",
+      "opacity" : 0.7058823529411765,
+	  "text-rotation": "autorotate",
+      "font-size" : "0px"
+    }
+  }, {
+    "selector" : "edge[edge_label = 'is ortholog of']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[edge_label = 'is subunit of']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'red']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'orange']",
+    "css" : {
+      "line-color" : "rgb(255,145,0)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'green']",
+    "css" : {
+      "line-color" : "rgb(0,173,0)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'blue']",
+    "css" : {
+      "line-color" : "rgb(0,0,255)"
+    }
+  }, {
+    "selector" : "edge[edge_color = 'yellow']",
+    "css" : {
+      "line-color" : "rgb(255,233,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12193' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12194' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12195' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12196' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12197' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12198' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '9383' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12199' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12200' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12201' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12202' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12203' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12204' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10188' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12205' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12206' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12207' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10223' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12208' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12209' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '12754' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10194' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10226' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10229' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '9334' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10199' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '10234' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '9435' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  }, {
+    "selector" : "edge[ id = '9374' ]",
+    "css" : {
+      "line-color" : "rgb(0,204,0)"
+    }
+  },
+{
+  "selector": "node.highlightednode",
+  "style": {
+    "text-opacity"	  : "1",
+	"text-wrap"	 	  : "wrap"
+  }
+},
+{
+  "selector": "node:selected",
+  "style": {
+    "text-opacity": "1"
+  }
+},
+{
+	"selector": "node.highlight",
+	"style": {
+		"text-wrap"	 	  : "wrap"
+	}
+},
+
+  {
+    "selector" : "edge",
+    "css" : {
+		"curve-style": "unbundled-bezier",
+		"opacity": "0.5",
+		"label": "data(edge_label)",
+		"text-rotation": "autorotate",
+		"text-margin-x": "10px",
+		"font-size": "0px"
+    }
+  },
+
+{
+	"selector": "node.semitransp",
+	"style":{ "opacity": "0.5" }
+},
+{
+	"selector": "edge.highlight",
+	"style": { "width":"3px","opacity":"0.7","font-size": "0px",
+	"mid-target-arrow-color": "#FFF" }
+},
+{
+	"selector": "edge.highlightededge",
+	"style": { "width":"3px","opacity":"1","font-size": "15px"}
+},
+{
+	"selector": "edge.semitransp",
+	"style":{ "opacity": "0.2" }
+},
+
+{
+  "selector": "node.left",
+  "style": {
+	"text-valign"  	  : "center",
+    "text-halign"  	  : "left"
+  }
+},
+{
+  "selector": "node.right",
+  "style": {
+	"text-valign"  	  : "center",
+    "text-halign"  	  : "right"
+  }
+},
+{
+  "selector": "node.top",
+  "style": {
+	"text-valign"  	  : "top",
+    "text-halign"  	  : "center"
+  }
+},
+{
+  "selector": "node.bottom",
+  "style": {
+	"text-valign"  	  : "bottom",
+    "text-halign"  	  : "center"
+  }
+},
+{
+  "selector": "node.center",
+  "style": {
+	"text-valign"  	  : "center",
+    "text-halign"  	  : "center"
+  }
+}
+
+  
+
+]

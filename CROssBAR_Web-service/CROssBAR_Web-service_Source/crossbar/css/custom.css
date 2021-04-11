@@ -1,0 +1,126 @@
+.list-group-item {
+	#padding: 3px 3px 3px 3px;
+	padding: 0 0 0 0;
+	margin:  1px 0px 1px 0px;
+	cursor: pointer;
+}
+.list-group-item:hover {
+
+}
+#search_parameters > .list-group-item  {
+	cursor: auto;
+}
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+/*
+hr{
+	padding: 0px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+*/
+
+hr.exppage {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: black;
+  background-color: black;
+  height:3px;
+  width: 50%;
+}
+hr.exppagefull {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: black;
+  background-color: black;
+  height:3px;
+  width: 100%;
+}
+/*height:3px;color:black;background-color:black;*/
+.collapsible {
+	cursor: pointer;
+}
+
+.nav-item > a{
+    font-size: 1.2em !important;
+    }
+
+.figure > a:hover{
+    opacity: 0.5;
+}
+
+.custom_paragraph {
+	padding-right: 10%;
+}
+
+#references > .list-group-item {
+    display: list-item;
+}
+
+@media (min-width:979px) {
+	.position-fixed-desktop {
+		position: fixed !important;
+		margin-left: 25%;
+	}
+}
+
+.nav-item > a.navmenuitem {
+	font-size: 17px !important;
+}
+
+#example_query_link {
+    color: red !important;
+}
+#example_query_link  > a:visited {
+    color: blue !important;
+}
+#example_query_link  > a:hover {
+    color: blue !important;
+}
+#example_query_link  > a:active {
+    color: blue !important;
+}
+#example_query_link  > a{
+    color: blue !important;
+}
+
+#example_query_link {
+	color: red !important;
+}
+
+input {
+	font-weight:bold !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-weight:normal !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-weight:normal !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-weight:normal !important;
+}
+
+#canvas_bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  z-index: 10;
+  opacity: 0.5;
+}
+#covid19_canvas_bg {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;;
+  left: -20px;
+  z-index: 10;
+  opacity: 0.5;
+}
