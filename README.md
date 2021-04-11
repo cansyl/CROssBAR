@@ -93,7 +93,7 @@ CROssBAR COVID-19 knowledge graphs (KGs) are constructed with aim of collecting 
 
 [<ins>**Simplified COVID-19 Knowledge Graph:**</ins>](https://crossbar.kansil.org/covid-19_simplified.php)
 
-<img src="https://user-images.githubusercontent.com/13165170/113632560-0f2e5700-9674-11eb-9631-cef4676b4d8e.png" width="800">
+<img src="https://user-images.githubusercontent.com/13165170/113632560-0f2e5700-9674-11eb-9631-cef4676b4d8e.png" width="1000">
 
 The large-scale KG (987 nodes and 3639 edges) and the simplified KG (178 nodes and 298 edges). Both of these graphs reveal the most overrepresented biological processes during a SARS-CoV-2 infection, as well as, the potential treatment options with COVID-19 related pre-clinical/clinical results and our novel _in silico_ predictions (for both virus and host proteins) considering long-term drug discovery or short-term drug repositioning applications.
 
