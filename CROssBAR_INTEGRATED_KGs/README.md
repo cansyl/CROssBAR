@@ -4,6 +4,35 @@ We have created two versions of CROssBAR integrated knowledge graphs (KGs):
 
 The CROssBAR-generic-KG.zip and CROssBAR-generic-KG_all-pchembl-bioactivities-added.zip files contain the node and edge files for both versions of the integrated CROssBAR KGs in tsv file format.
 
-Please see the table below for statistics on the nodes and edges in these KGs. Note that the only difference between the two versions is the number of "compound" nodes and "Chembl" edges.
+Please see the tables below for statistics of the nodes and edges in these KGs. Note that the only difference between the two versions is the number of "compound" nodes and "Chembl" edges.
 
+| **Node Type**	| **Size** |
+| ------------- | -------- |  
+Compound	| 135,441 <sup>*</sup> / 423,009 <sup>**</sup> 
+Protein	| 23,554 
+HPO	| 9,165
+Drug	| 5,858
+Disease	| 3,815
+Pathway	| 3,764
+kegg_Disease	| 1,879
+kegg_Pathway	| 248
+TOTAL	| 183,724 <sup>*</sup> / 471,292 <sup>**</sup>
+</td><td>
+  
+| **Edge Type**	| **Size** |
+| ------------- | -------- | 
+Chembl	| 169,622 <sup>*</sup> / 630,251 <sup>**</sup> 
+PPI	| 93,203
+HPO	| 40,330
+Pathway	| 36,534
+hpodis	| 24,673
+kegg_path_prot	| 19,474
+Drug	| 16,739
+Disease	| 7,309
+kegg_dis_prot	| 5,940
+kegg_dis_path	| 1,686
+kegg_dis_drug	| 308
+TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup> 
+
+<sup>*</sup> CROssBAR-generic-KG, <sup>**</sup> CROssBAR-generic-KG_all-pchembl-bioactivities-added
 
