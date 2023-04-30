@@ -3,9 +3,9 @@ CROssBAR integrated knowledge graphs (KG) are giant biological/biomedical relati
 - The second integrated KG, **CROssBAR-generic-KG_all-pchembl-bioactivities-added**, is the extended version of the CROssBAR-generic-KG. It includes all bioactivity edges with pchembl values, which are eliminated due to enrichment analysis during the construction of the initial query-based small-scale KGs.
 - The third integrated KG, **CROssBAR-extended-KG**, is the extended version of the CROssBAR-generic-KG with Gene Ontology (GO), Enzyme Commission (EC), and Chebi entities alongside with Protein-GO, GO-GO, Protein-EC, Drug/Compound-Chebi, Chebi-Chebi and Gene/Protein-Gene/Protein orthology relations.
 
-The CROssBAR-generic-KG.zip and CROssBAR-generic-KG_all-pchembl-bioactivities-added.zip files contain the node and edge files for both versions of the integrated KGs in tsv file format.
+The CROssBAR-generic-KG.zip and CROssBAR-generic-KG_all-pchembl-bioactivities-added.zip files contain the node and edge files for both versions of the integrated KGs in tsv file format. In addition, the CROssBAR-extended-KG-nodes.zip and CROssBAR-extended-KG-edges.zip files contain node and edge files in csv file format.
 
-Please see the tables below for node and edge statistics. Note that the only difference between the two versions is the number of "compound" nodes and "Chembl" (bioactivity) edges.
+Please see the tables below for node and edge statistics. Note that the only difference between the CROssBAR-generic-KG.zip and CROssBAR-generic-KG_all-pchembl-bioactivities-added.zip versions is the number of "compound" nodes and "Chembl" (bioactivity) edges.
 
 | **Node Type**	| **Size** |
 | ------------- | -------- |  
