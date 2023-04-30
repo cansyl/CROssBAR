@@ -39,6 +39,7 @@ TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup>
 
   
 | **CROssBAR-extended-KG** |
+| ------------- | -------- |
 | **Node Type**	| **Size** |
 | ------------- | -------- |
 Protein	| 492,574
