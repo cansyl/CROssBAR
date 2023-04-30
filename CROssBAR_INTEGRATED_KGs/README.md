@@ -50,4 +50,21 @@ Go_term | 43,435
 Ec_number | 5,594
 Chebi | 160,806
 Domain | 10,229
+  
+### CROssBAR-extended-KG-edges statistics ###
+| **Node Type**	| **Size** |
+| ------------- | -------- |
+Protein-Protein (PPI) | 186,406
+Protein-Protein (Orthology) | 3,906,915
+Protein-Disease | 13,249
+Protein-Pathway | 56,008
+Protein-Domain | 731,396
+Protein-Go_term | 3,202,059
+Protein-Ec_number | 296,781
+Drug/Compound-Protein | 186,361
+Drug/Compound-Chebi | 6,809
+Chebi-Chebi | 638,182
+Disease-HPO | 24,673
+Disease-Pathway | 1,686
+Go_term-Go_term | 170,370
 
