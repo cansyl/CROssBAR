@@ -1,7 +1,7 @@
 CROssBAR integrated knowledge graphs (KG) are giant biological/biomedical relationship networks created by merging numerous query-specific small-scale KGs based on their shared nodes and edges. We have created two versions of CROssBAR integrated knowledge graphs (KGs):
 - To construct **the CROssBAR-generic-KG version**, we performed a bulk search using CROssBAR web service to obtain independent KGs for all reviewed human proteins listed in the UniProtKB/Swiss-Prot database (i.e., 20,173 protein entries). We queried each protein entry with parameters "predictions=0, num_of_drugs=100, num_of_compounds=100," while other parameters were set to default. The KGs were then merged, and duplicate nodes and edges were removed.
 - The second integrated KG, **CROssBAR-generic-KG_all-pchembl-bioactivities-added**, is the extended version of the CROssBAR-generic-KG. It includes all bioactivity edges with pchembl values, which are eliminated due to enrichment analysis during the construction of the initial query-based small-scale KGs.
-- The third integrated KG, **CROssBAR-extended-KG**, is the extended version of the CROssBAR-generic-KG with Gene Ontology (GO), Enzyme Commission (EC), and Chebi entities alongside with Protein-GO, GO-GO, Protein-EC, Drug/Compound-Chebi, Chebi-Chebi and Gene/Protein-Gene/Protein orthology relations.
+- The third integrated KG, **CROssBAR-extended-KG**, is the extended version of the CROssBAR-generic-KG with Domain, Gene Ontology (GO), Enzyme Commission (EC), Chebi and all Swiss-Prot Protein entities alongside with Protein-Domain, Protein-GO, GO-GO, Protein-EC, Drug/Compound-Chebi, Chebi-Chebi and Gene/Protein-Gene/Protein orthology relations.
 
 The CROssBAR-generic-KG.zip and CROssBAR-generic-KG_all-pchembl-bioactivities-added.zip files contain the node and edge files for both versions of the integrated KGs in tsv file format. In addition, the CROssBAR-extended-KG-nodes.zip and CROssBAR-extended-KG-edges.zip files contain node and edge files in csv file format.
 
@@ -38,11 +38,16 @@ TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup>
 <sup>*</sup> CROssBAR-generic-KG, <sup>**</sup> CROssBAR-generic-KG_all-pchembl-bioactivities-added
 
   
-| **CROssBAR-extended-KG** |
+### CROssBAR-extended-KG-nodes statistics ###
 | **Node Type**	| **Size** |
 | ------------- | -------- |
 Protein	| 492,574
-  
-| heading 1 |          heading 2          ||
-|           |  sub head a  |  sub head b   |
-|-----------|--------------|---------------|
+HPO | 9,165
+Drug	| 6,618
+Disease	| 5,694
+Pathway	| 4,012
+Go_term | 43,435
+Ec_number | 5,594
+Chebi | 160,806
+Domain | 10,229
+
