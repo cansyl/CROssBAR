@@ -42,3 +42,7 @@ TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup>
 | **Node Type**	| **Size** |
 | ------------- | -------- |
 Protein	| 492,574
+  
+| heading 1 |          heading 2          ||
+|           |  sub head a  |  sub head b   |
+|-----------|--------------|---------------|
