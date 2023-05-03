@@ -62,6 +62,7 @@ Protein-Domain | 731,396
 Protein-Go_term | 3,202,059
 Protein-Ec_number | 296,781
 Drug/Compound-Protein | 186,361
+Drug-Disease | 308
 Drug/Compound-Chebi | 6,809
 Chebi-Chebi | 638,182
 Disease-HPO | 24,673
