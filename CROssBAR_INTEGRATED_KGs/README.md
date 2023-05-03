@@ -52,7 +52,7 @@ Chebi | 160,806
 Domain | 10,229
   
 ### CROssBAR-extended-KG-edges statistics ###
-| **Node Type**	| **Size** |
+| **Edge Type**	| **Size** |
 | ------------- | -------- |
 Protein-Protein (PPI) | 186,406
 Protein-Protein (Orthology) | 396,915
