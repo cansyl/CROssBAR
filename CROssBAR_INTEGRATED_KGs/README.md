@@ -50,6 +50,7 @@ Go_term | 43,435
 Ec_number | 5,594
 Chebi | 160,806
 Domain | 10,229
+**Total** | **873,568**
   
 ### CROssBAR-extended-KG-edges statistics ###
 | **Edge Type**	| **Size** |
@@ -68,4 +69,5 @@ Chebi-Chebi | 638,182
 Disease-HPO | 24,673
 Disease-Pathway | 1,686
 Go_term-Go_term | 170,370
+**Total** | **10,509,002**
 
