@@ -55,7 +55,7 @@ Domain | 10,229
 | **Node Type**	| **Size** |
 | ------------- | -------- |
 Protein-Protein (PPI) | 186,406
-Protein-Protein (Orthology) | 3,906,915
+Protein-Protein (Orthology) | 396,915
 Protein-Disease | 13,249
 Protein-Pathway | 56,008
 Protein-Domain | 731,396
