@@ -110,6 +110,6 @@ Doğan, T., Atas, H., Joshi, V., Atakan, A., Rifaioglu, A.S., Nalbat, E., Nighti
 
 CROssBAR (c) by CanSyL
 
-CROssBAR is licensed under a Creative Commons Attribution 4.0 Unported License.
+CROssBAR is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 You should have received a copy of the license along with this work.  If not, see <http://creativecommons.org/licenses/by/4.0/>.
