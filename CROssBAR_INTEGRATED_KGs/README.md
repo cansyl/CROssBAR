@@ -38,7 +38,7 @@ TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup>
 <sup>*</sup> CROssBAR-generic-KG, <sup>**</sup> CROssBAR-generic-KG_all-pchembl-bioactivities-added
 
   
-### CROssBAR-extended-KG-nodes statistics ###
+### CROssBAR-extended-KG nodes statistics ###
 | **Node Type**	| **Size** |
 | ------------- | -------- |
 Protein	| 492,574
@@ -52,7 +52,7 @@ Chebi | 160,806
 Domain | 10,229
 **Total** | **738,127**
   
-### CROssBAR-extended-KG-edges statistics ###
+### CROssBAR-extended-KG edges statistics ###
 | **Edge Type**	| **Size** |
 | ------------- | -------- |
 Protein-Protein (PPI) | 186,406
