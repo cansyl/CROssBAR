@@ -51,7 +51,7 @@ Go_term | 43,435
 Ec_number | 5,594
 Chebi | 160,806
 Domain | 10,229
-**Total** | **738,127**
+**Total** | **1,161,136**
   
 ### CROssBAR-extended-KG edges statistics ###
 | **Edge Type**	| **Size** |
