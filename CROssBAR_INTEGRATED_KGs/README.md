@@ -44,6 +44,7 @@ TOTAL	| 415,818 <sup>*</sup> / 876,447 <sup>**</sup>
 Protein	| 492,574
 HPO | 9,165
 Drug	| 6,618
+Compound | 423,009
 Disease	| 5,694
 Pathway	| 4,012
 Go_term | 43,435
